@@ -1,0 +1,7 @@
+\contentsline {chapter}{\numberline {1}Introduction}{11}
+\contentsline {section}{\numberline {1.1}prueba}{11}
+\contentsline {subsection}{\numberline {1.1.1}seccion peque\IeC {\~n}a}{11}
+\contentsline {chapter}{\numberline {2}Characterization of sTGC}{13}
+\contentsline {chapter}{\numberline {3}LYSO crystals array as SRD}{15}
+\contentsline {chapter}{\numberline {4}Conclusion}{17}
+\contentsline {chapter}{\numberline {A}Appendix Title}{19}
