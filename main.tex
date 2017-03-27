@@ -1,82 +1,107 @@
 \documentclass[12pt, a4letter,openright,twoside]{book}
-\usepackage[a4letter,vmargin={20mm,20mm},hmargin={20mm,20mm}]{geometry}
+\usepackage[a4paper,includeheadfoot,margin=2.52cm]{geometry}
+%\usepackage[a4letter,vmargin={20mm,20mm},hmargin={20mm,20mm}]{geometry}
+\usepackage[english,spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{color}
 \usepackage{fancyhdr}
-\usepackage[english,spanish]{babel}
 \usepackage{acronym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+%\usepackage{biblatex}
 
+\usepackage[pdftex,
+						pdfpagelabels,
+						bookmarks,
+						hyperindex,
+						hyperfigures]{hyperref}
+						
 \graphicspath{ {images/} }
+
+
 %---------- Modify Chapter Name -------
+
+
 \usepackage{titlesec}
 \titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\bf}
 
 
-%---------- Title page ----------
-
-
-
-%-------- Title page 2 -------
-%
-%\title{
-%				{Modern Detectors for study of Standard Model and beyond.}\\
-%				\selectlanguage{spanish}
-%				{\large Universidad Ténica Federico Santa María}\\
-%				{\includegraphics{logo2.pdf}}
-%}
-%\author{author: Gerardo Vásquez}
-%\author{advisor: Sergey Kuleshov}
-
-
-
-
-
-
 % -------------- Customizing pagestyle plain -----------%
 % --------------- use texdoc fancyhdr to get option formats ------ %
+
+
 \fancypagestyle{plain}{%
 \fancyfoot{} % clear all header and footer fields
 \fancyhead[l]{\bfseries \nouppercase \rightmark} % except the center
 \fancyfoot[LE,RO]{\thepage} %except the center
 }
-%\pagestyle{fancy}
+
+
+%--------- BEGIN DOCUMENT -----------
+
 \begin{document}
 
 %\maketitle
+
+%--------- TITLE PAGE --------
+
 \input{titlepage}
+
+%--------- ABSTRACT PAGE --------
+
 \selectlanguage{english}
 \chapter*{Abstract}
-	The increased necessity of experimental proof of physics beyond Standard Model (SM) and Dark Matter theories leads us
-	to develop new detectors for high energy experiments, like ATLAS with his upgrade (New Small Wheel project in
-	particular) for the luminosity increase at LHC and a new experiment on SPS facilities at CERN called NA64; to search
-	for Dark Matter on invisible(visible) decays of dark photons.\\ 
-	For this two experiments, detectors from our institute have been made to be part on such enterprise.  Characterizations and tests have been done with the use of particles beam (electrons, pions, muons and gamma rays) from the Experimental Area at CERN.\par
+\input{abstract}
 
+%---------------------------------
 
 \chapter*{Dedication}
-dedication
+
+%---------------------------------
+
 \chapter*{Acknowledgments}
-Agradecimientos
+
+%---------------------------------
+
 \tableofcontents
+
+%---------------------------------
 
 \chapter{Introduction}
 \input{chapters/introduction}
 
+%---------------------------------
+
 \chapter{Characterization of sTGC}
 \input{chapters/chapter02}
 
-\chapter{Brillance380 under high $\gamma$ rate}
+%---------------------------------
+
+\chapter{Brillance380 under high gamma rate}
 \input{chapters/chapter03}
+
+%---------------------------------
 
 \chapter{LYSO crystals array as SRD}
 \input{chapters/chapter04}
 
+%---------------------------------
+
 \chapter{Conclusion}
 \input{chapters/conclusion}
+
+%---------------------------------
 
 \appendix
 \chapter{Appendix}
 \input{chapters/appendix}
+
+%---------------------------------
+
+\cleardoublepage
+\bibliographystyle{plain}
+\bibliography{reference}
 
 \end{document}
 

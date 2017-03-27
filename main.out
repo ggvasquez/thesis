@@ -1,0 +1,44 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Characterization of sTGC}{}% 2
+\BOOKMARK [1][-]{section.2.1}{ATLAS Detector Upgrade}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{High Luminosity Large Hadron Collider - HL-LHC}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{ATLAS Detector}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{New Small Wheel}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Small-strip Thing Gap Chamber}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Construction process}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Gain and uniformity}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{Working under high gamma rate}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.6}{Spatial resolution strips}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.7}{Charge sharing between pads}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.8}{summary}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Brillance380 under high gamma rate}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Scintilators counters}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{high count rates}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{Internal radiation}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Experimental setup}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.5}{Spectrum and rates under different attenuation filters}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.6}{Data Analisys}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.6.1}{Wavelets}{section.3.6}% 21
+\BOOKMARK [2][-]{subsection.3.6.2}{Peak identification}{section.3.6}% 22
+\BOOKMARK [1][-]{section.3.7}{Results}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{LYSO crystals array as SRD}{}% 24
+\BOOKMARK [1][-]{section.4.1}{NA64 experiment}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.1.1}{Physics Motivation}{section.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.1.2}{Dark Photon signal}{section.4.1}% 27
+\BOOKMARK [2][-]{subsection.4.1.3}{Setup}{section.4.1}% 28
+\BOOKMARK [1][-]{section.4.2}{Synchroton Radiation Detector}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.2.1}{BGO}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.2}{Pb+Sc}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.3}{LYSO}{section.4.2}% 32
+\BOOKMARK [1][-]{section.4.3}{Cosmic ray calibration?}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.4}{Calibration}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Position and time resolution}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.6}{Hadron rejection}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.7}{Purity 100 GeV electron identification}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.8}{Summary}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 39
+\BOOKMARK [0][-]{appendix.Alph1}{Appendix}{}% 40
+\BOOKMARK [1][-]{section.Alph1.1}{Mechanical Measurements sTGC Module 0}{appendix.Alph1}% 41
+\BOOKMARK [1][-]{section.Alph1.2}{PMT RT7525 Data Sheet}{appendix.Alph1}% 42
+\BOOKMARK [1][-]{section.Alph1.3}{Data Structure NA64 Experiment}{appendix.Alph1}% 43
+\BOOKMARK [1][-]{section.Alph1.4}{DAQ system}{appendix.Alph1}% 44
