@@ -9,38 +9,40 @@
 \contentsline {section}{\numberline {2.2}Small-strip Thing Gap Chamber}{14}{section.2.2}
 \contentsline {section}{\numberline {2.3}Construction process}{15}{section.2.3}
 \contentsline {section}{\numberline {2.4}Gain and uniformity}{15}{section.2.4}
-\contentsline {section}{\numberline {2.5}Working under high gamma rate}{15}{section.2.5}
-\contentsline {section}{\numberline {2.6}Spatial resolution strips}{15}{section.2.6}
-\contentsline {section}{\numberline {2.7}Charge sharing between pads}{15}{section.2.7}
-\contentsline {section}{\numberline {2.8}summary}{15}{section.2.8}
-\contentsline {chapter}{\numberline {3}Brillance380 under high gamma rate}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Scintilators counters}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}high count rates}{17}{section.3.2}
-\contentsline {section}{\numberline {3.3}Internal radiation}{17}{section.3.3}
-\contentsline {section}{\numberline {3.4}Experimental setup}{17}{section.3.4}
-\contentsline {section}{\numberline {3.5}Spectrum and rates under different attenuation filters}{17}{section.3.5}
-\contentsline {section}{\numberline {3.6}Data Analisys}{17}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Wavelets}{17}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Peak identification}{17}{subsection.3.6.2}
-\contentsline {section}{\numberline {3.7}Results}{17}{section.3.7}
-\contentsline {chapter}{\numberline {4}LYSO crystals array as SRD}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}NA64 experiment}{19}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Physics Motivation}{19}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Dark Photon signal}{19}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Setup}{19}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Synchroton Radiation Detector}{19}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}BGO}{19}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Pb+Sc}{19}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}LYSO}{19}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Cosmic ray calibration?}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Calibration}{19}{section.4.4}
-\contentsline {section}{\numberline {4.5}Position and time resolution}{19}{section.4.5}
-\contentsline {section}{\numberline {4.6}Hadron rejection}{19}{section.4.6}
-\contentsline {section}{\numberline {4.7}Purity 100 GeV electron identification}{19}{section.4.7}
-\contentsline {section}{\numberline {4.8}Summary}{19}{section.4.8}
-\contentsline {chapter}{\numberline {5}Conclusion}{21}{chapter.5}
-\contentsline {chapter}{\numberline {A}Appendix}{23}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Mechanical Measurements sTGC Module 0}{23}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}PMT RT7525 Data Sheet}{23}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Data Structure NA64 Experiment}{23}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}DAQ system}{23}{section.Alph1.4}
+\contentsline {subsection}{\numberline {2.4.1}Setup}{16}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Results}{16}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Working under high gamma rate}{16}{section.2.5}
+\contentsline {section}{\numberline {2.6}Spatial resolution strips}{16}{section.2.6}
+\contentsline {section}{\numberline {2.7}Charge sharing between pads}{16}{section.2.7}
+\contentsline {section}{\numberline {2.8}summary}{16}{section.2.8}
+\contentsline {chapter}{\numberline {3}Brillance380 under high gamma rate}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Scintilators counters}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}high count rates}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Internal radiation}{19}{section.3.3}
+\contentsline {section}{\numberline {3.4}Experimental setup}{19}{section.3.4}
+\contentsline {section}{\numberline {3.5}Spectrum and rates under different attenuation filters}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Data Analisys}{19}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Wavelets}{19}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Peak identification}{19}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}Results}{19}{section.3.7}
+\contentsline {chapter}{\numberline {4}LYSO crystals array as SRD}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}NA64 experiment}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Physics Motivation}{21}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Dark Photon signal}{21}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Setup}{21}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Synchroton Radiation Detector}{21}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}BGO}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Pb+Sc}{21}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}LYSO}{21}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Cosmic ray calibration?}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}Calibration}{21}{section.4.4}
+\contentsline {section}{\numberline {4.5}Position and time resolution}{21}{section.4.5}
+\contentsline {section}{\numberline {4.6}Hadron rejection}{21}{section.4.6}
+\contentsline {section}{\numberline {4.7}Purity 100 GeV electron identification}{21}{section.4.7}
+\contentsline {section}{\numberline {4.8}Summary}{21}{section.4.8}
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.5}
+\contentsline {chapter}{\numberline {A}Appendix}{25}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Mechanical Measurements sTGC Module 0}{25}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}PMT RT7525 Data Sheet}{25}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Data Structure NA64 Experiment}{25}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}DAQ system}{25}{section.Alph1.4}
