@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{tgc}
+G.~Mikenberg.
+\newblock Thin-gas gap chambers for hadronic calorimetry.
+\newblock {\em Nucl. Instr. and Meth. A}, 265:223--227, 1988.
+
 \bibitem{stripwidth}
 et~al V.Smakhtin.
 \newblock Thin gap chamber upgrade for slhc: Position resolution in a test
