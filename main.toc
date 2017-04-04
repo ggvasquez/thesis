@@ -9,12 +9,12 @@
 \contentsline {section}{\numberline {2.2}Small-strip Thing Gap Chamber}{14}{section.2.2}
 \contentsline {section}{\numberline {2.3}Construction process}{16}{section.2.3}
 \contentsline {section}{\numberline {2.4}Gain uniformity measurements}{16}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Setup}{16}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Setup}{17}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Results}{17}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Test under high rate}{18}{section.2.5}
-\contentsline {section}{\numberline {2.6}Spatial resolution strips}{18}{section.2.6}
-\contentsline {section}{\numberline {2.7}Charge sharing between pads}{18}{section.2.7}
-\contentsline {section}{\numberline {2.8}summary}{18}{section.2.8}
+\contentsline {section}{\numberline {2.5}Test under high rate}{17}{section.2.5}
+\contentsline {section}{\numberline {2.6}Spatial resolution strips}{17}{section.2.6}
+\contentsline {section}{\numberline {2.7}Charge sharing between pads}{17}{section.2.7}
+\contentsline {section}{\numberline {2.8}summary}{17}{section.2.8}
 \contentsline {chapter}{\numberline {3}Brillance380 under high gamma rate}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Scintilators counters}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}high count rates}{19}{section.3.2}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 MAR 2017 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 APR 2017 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -376,6 +376,18 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip52
+\L@UnitsRaiseTextstyle=\skip53
+\L@UnitsRaiseScriptstyle=\skip54
+))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -490,13 +502,13 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip52
+\Hy@SectionHShift=\skip55
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
-\beforetitleunit=\skip53
-\aftertitleunit=\skip54
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
 \ttl@plus=\dimen118
 \ttl@minus=\dimen119
 \ttl@toksa=\toks21
@@ -514,20 +526,20 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -563,8 +575,8 @@ LaTeX Font Info:    ... okay on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
@@ -594,7 +606,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -604,9 +616,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -707,7 +719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 50--56
 
  []
 
@@ -715,49 +727,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 File: images/sTGC_layout.png Graphic file (type png)
 
 <use images/sTGC_layout.png>
-Package pdftex.def Info: images/sTGC_layout.png used on input line 49.
+Package pdftex.def Info: images/sTGC_layout.png used on input line 63.
 (pdftex.def)             Requested size: 227.05287pt x 208.60983pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--76
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
 
  []
 
 [15 <./images/sTGC_layout.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 84--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 100--111
 
  []
 
-<images/uniformity_2500.pdf, id=329, 569.12625pt x 368.37625pt>
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<images/uniformity_2500.pdf, id=335, 569.12625pt x 368.37625pt>
 File: images/uniformity_2500.pdf Graphic file (type pdf)
 
 <use images/uniformity_2500.pdf>
-Package pdftex.def Info: images/uniformity_2500.pdf used on input line 100.
+Package pdftex.def Info: images/uniformity_2500.pdf used on input line 140.
 (pdftex.def)             Requested size: 317.87262pt x 205.7553pt.
- [16]
-<images/uniformity_2900.pdf, id=334, 569.12625pt x 368.37625pt>
+
+<images/uniformity_2900.pdf, id=336, 569.12625pt x 368.37625pt>
 File: images/uniformity_2900.pdf Graphic file (type pdf)
 
 <use images/uniformity_2900.pdf>
-Package pdftex.def Info: images/uniformity_2900.pdf used on input line 106.
+Package pdftex.def Info: images/uniformity_2900.pdf used on input line 146.
 (pdftex.def)             Requested size: 317.87262pt x 205.7553pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./images/uniformity_2500.pdf, page is rotated 90 degrees> <./images/unifo
-rmity_2900.pdf, page is rotated 90 degrees>] [18]
+) [17] [18 <./images/uniformity_2500.pdf, page is rotated 90 degrees> <./images
+/uniformity_2900.pdf, page is rotated 90 degrees>]
 Chapter 3.
 
-Overfull \hbox (19.67892pt too wide) in paragraph at lines 81--81
+Overfull \hbox (19.67892pt too wide) in paragraph at lines 82--82
  |[]\OT1/cmr/bx/n/24.88 Brillance380 un-der high gamma rate| 
  []
 
@@ -787,29 +796,29 @@ Appendix A.
 (./chapters/appendix.tex) [25] [26
 
 ] (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
  [27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (./main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C489E391A2BBC7F4776BD94CB0A5E72C;3020.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 7894 strings out of 493089
- 112775 string characters out of 6134842
- 216262 words of memory out of 5000000
- 11147 multiletter control sequences out of 15000+600000
+ 7976 strings out of 493089
+ 113987 string characters out of 6134842
+ 217869 words of memory out of 5000000
+ 11218 multiletter control sequences out of 15000+600000
  11725 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,12n,48p,1468b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,48p,580b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -821,10 +830,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (27 pages, 392449 bytes).
+Output written on main.pdf (27 pages, 395505 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
