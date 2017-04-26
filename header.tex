@@ -1,0 +1,49 @@
+\documentclass[12pt, a4letter,openright,twoside]{book}
+\usepackage[a4paper,includeheadfoot,margin=2.52cm, headheight=15pt]{geometry}
+%\usepackage[a4letter,vmargin={20mm,20mm},hmargin={20mm,20mm}]{geometry}
+\usepackage[english,spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{acronym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{units}
+\usepackage{enumitem}
+\usepackage{blindtext}
+\usepackage{pdfpages}
+%----- Allow subfigures -----
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{biblatex}
+
+\usepackage[pdftex,
+						pdfpagelabels,
+						bookmarks,
+						hyperindex,
+						hyperfigures]{hyperref}
+						
+\graphicspath{ {images/} }
+
+
+%---------- Modify Chapter Name -------
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\bf}
+
+
+% -------------- Customizing pagestyle plain -----------%
+% --------------- use texdoc fancyhdr to get option formats ------ %
+
+
+\fancypagestyle{plain}{%
+\fancyfoot{} % clear all header and footer fields
+\fancyhead[l]{\bfseries \nouppercase \rightmark} % except the center
+\fancyfoot[LE,RO]{\thepage} %except the center
+}
+% ------------ Commandands ---------------------- % 
+\newcommand{\micro}[1]{$\mu$#1}
+
+

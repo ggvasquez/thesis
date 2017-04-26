@@ -6,40 +6,48 @@
 \BOOKMARK [2][-]{subsection.2.1.3}{New Small Wheel}{section.2.1}% 6
 \BOOKMARK [1][-]{section.2.2}{Small-strip Thing Gap Chamber}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.3}{Construction process}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.4}{Gain uniformity measurements}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.4.1}{Setup}{section.2.4}% 10
-\BOOKMARK [2][-]{subsection.2.4.2}{Results}{section.2.4}% 11
-\BOOKMARK [1][-]{section.2.5}{Test under high rate}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.6}{Spatial resolution strips}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.7}{Charge sharing between pads}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.8}{summary}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Brillance380 under high gamma rate}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Scintilators counters}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{high count rates}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.3}{Internal radiation}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.4}{Experimental setup}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.5}{Spectrum and rates under different attenuation filters}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.6}{Data Analisys}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.6.1}{Wavelets}{section.3.6}% 23
-\BOOKMARK [2][-]{subsection.3.6.2}{Peak identification}{section.3.6}% 24
-\BOOKMARK [1][-]{section.3.7}{Results}{chapter.3}% 25
-\BOOKMARK [0][-]{chapter.4}{LYSO crystals array as SRD}{}% 26
-\BOOKMARK [1][-]{section.4.1}{NA64 experiment}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.1.1}{Physics Motivation}{section.4.1}% 28
-\BOOKMARK [2][-]{subsection.4.1.2}{Dark Photon signal}{section.4.1}% 29
-\BOOKMARK [2][-]{subsection.4.1.3}{Setup}{section.4.1}% 30
-\BOOKMARK [1][-]{section.4.2}{Synchroton Radiation Detector}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{BGO}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{Pb+Sc}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.3}{LYSO}{section.4.2}% 34
-\BOOKMARK [1][-]{section.4.3}{Calibration}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.4}{Position and time resolution}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.5}{Hadron rejection}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.6}{Purity 100 GeV electron identification}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.7}{Summary}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 40
-\BOOKMARK [0][-]{appendix.Alph1}{Appendix}{}% 41
-\BOOKMARK [1][-]{section.Alph1.1}{Mechanical Measurements sTGC Module 0}{appendix.Alph1}% 42
-\BOOKMARK [1][-]{section.Alph1.2}{PMT RT7525 Data Sheet}{appendix.Alph1}% 43
-\BOOKMARK [1][-]{section.Alph1.3}{Data Structure NA64 Experiment}{appendix.Alph1}% 44
-\BOOKMARK [1][-]{section.Alph1.4}{DAQ system}{appendix.Alph1}% 45
+\BOOKMARK [2][-]{subsection.2.3.1}{Quality Control of cathode boards}{section.2.3}% 9
+\BOOKMARK [2][-]{subsection.2.3.2}{Cathode preparation}{section.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.3.3}{Graphite spraying}{section.2.3}% 11
+\BOOKMARK [2][-]{subsection.2.3.4}{Polishing}{section.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.3.5}{Glue internal parts}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.6}{Winding wires}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.7}{Detector Assembly}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.8}{Planarity and thickness measurements}{section.2.3}% 16
+\BOOKMARK [1][-]{section.2.4}{Gain uniformity measurements}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.4.1}{Setup}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{Results}{section.2.4}% 19
+\BOOKMARK [1][-]{section.2.5}{Test under high rate}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.6}{Spatial resolution strips}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.7}{Charge sharing between pads}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.8}{summary}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Brillance380 under high rate}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Scintilators counters}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{high count rates}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Internal radiation}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.4}{Experimental setup}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.5}{Spectrum and rates under different attenuation filters}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.6}{Data Analisys}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.6.1}{Wavelets}{section.3.6}% 31
+\BOOKMARK [2][-]{subsection.3.6.2}{Peak identification}{section.3.6}% 32
+\BOOKMARK [1][-]{section.3.7}{Results}{chapter.3}% 33
+\BOOKMARK [0][-]{chapter.4}{LYSO crystals array as SRD}{}% 34
+\BOOKMARK [1][-]{section.4.1}{NA64 experiment}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.1.1}{Physics Motivation}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.2}{Dark Photon signal}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.3}{Setup}{section.4.1}% 38
+\BOOKMARK [1][-]{section.4.2}{Synchroton Radiation Detector}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.2.1}{BGO}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.2}{Pb+Sc}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.3}{LYSO}{section.4.2}% 42
+\BOOKMARK [1][-]{section.4.3}{Calibration}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{Position and time resolution}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{Hadron rejection}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.6}{Purity 100 GeV electron identification}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.7}{Summary}{chapter.4}% 47
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 48
+\BOOKMARK [0][-]{appendix.Alph1}{Appendix}{}% 49
+\BOOKMARK [1][-]{section.Alph1.1}{Mechanical Measurements sTGC Module 0}{appendix.Alph1}% 50
+\BOOKMARK [1][-]{section.Alph1.2}{PMT RT7525 Data Sheet}{appendix.Alph1}% 51
+\BOOKMARK [1][-]{section.Alph1.3}{Data Structure NA64 Experiment}{appendix.Alph1}% 52
+\BOOKMARK [1][-]{section.Alph1.4}{DAQ system}{appendix.Alph1}% 53
