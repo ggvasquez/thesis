@@ -1,67 +1,151 @@
-\section{ATLAS Detector Upgrade}
+\section{Introduction}
+The aim of this chapter is to show the characteristics of the new detectors present on the upgrade for ATLAS detector,
+and how can achieve the requirements for the high luminosity events.
+The results of each test to characterize the detector are present.
 
-\subsection{High Luminosity Large Hadron Collider - HL-LHC}
-The Large Hadron Collider (LHC), run by CERN at the Franco-Swiss border near Geneva, is a circular accelerator with 27 km of acceleration pipes, is
-the largest scientific instrument ever designed and built for scientific research. Successfully commissioned in March 2010 for proton-proton collision
-with a 7 GeV centre-of-mass energy.\\ The LHC is pusshing the limits of human knowledge, enabling physicist to go beyond Standar Model (SM): the
-enigmatic Higgs boson, mysterious Dark Matter and the world of supersymetry are just three of the long-awaited mysterous that the LHC will unveil. The
-announcement given by CERN on 4 July 2012 about the discovery of new boson at 125-126 GeV, almost certainly the long awaited Higgs particle, is the
-first fundamental discovery, hopefully the first of a series, that the LHC can deliver.\\ Such discovery was thanks to the different detectors located
-on the four interaction points; ALICE, LHCb, CMS and ATLAS. This last one is the detector where our university is taking part.\par
-\begin{figure}[ht]
-		\centering
-		\includegraphics[width=0.7\textwidth]{LHC_program_table.png}
-		\caption{LCH Schedule}\label{fig:a}
-\end{figure}
+
+\subsection{High Luminosity Large Hadron Collider}
+The Large Hadron Collider (LHC), run by CERN at the Franco-Swiss border near Geneva, is a circular accelerator with 27km of acceleration pipes, is the largest scientific instrument ever designed and built for scientific research.
+Successfully commissioned in March 2010 for proton-proton collision with a \SI{7}{GeV} center-of-mass energy.\\ The LHC is
+pusshing the limits of human knowledge, enabling physicist to go beyond Standar Model (SM): the enigmatic Higgs boson,
+mysterious Dark Matter and the world of supersymetry are just three of the long-awaited mysterous that the LHC will
+unveil. The announcement given by CERN on 4 July 2012 about the discovery of new boson at 125-126 GeV, almost certainly
+the long awaited Higgs particle, is the first fundamental discovery, hopefully the first of a series, that the LHC can
+deliver.\\ Such discovery was thanks to the different detectors located on the four interaction points; ALICE, LHCb, CMS
+and ATLAS. This last one is the detector where our university is taking part.\par
 \par
-CONTINUE WITH LHC UPGRADE and GOALS
+
+
+% -------- LHC Schedule Table ------ 
+\begin{table}[h]\footnotesize
+\centering
+\begin{tabular*}{0.8\textwidth}{rcccc}
+\cellcolor{blue} &\cellcolor{blue}\textcolor{white}{Period} &\cellcolor{blue}\textcolor{white}{Energy $\sqrt{s}$} &\cellcolor{blue}\textcolor{white}{Luminosity ${\cal
+L}$} &\cellcolor{blue}\textcolor{white}{Integrate ${\cal L}$} \\
+\cellcolor{cyan} \textcolor{white}{Run I} 	& 2010-2012 & 7-8 TeV & \SI{6e33}{cm^{-2}s^{-1}} & \SI{25}{fb^{-1}}\\
+\cellcolor{cyan} \textcolor{white}{LS1} 		&\cellcolor{lightgray}2013-2014 & \multicolumn{3}{l}{\cellcolor{lightgray}Go to design energy, nominal luminosity,
+bunch spacing 25ns}\\
+\cellcolor{cyan} \textcolor{white}{Phase 0} & 2015-2018 & 14 TeV & \SI{1e34}{cm^{-2}s^{-1}} & \SIrange{75}{100}{fb^{-1}}\\
+\cellcolor{cyan} \textcolor{white}{LS2} 		&\cellcolor{lightgray}2019-2020 & \multicolumn{3}{l}{\cellcolor{lightgray}Upgrade muon spectrometer;NSW,LAr
+Calorimeter \& FTK}\\
+\cellcolor{cyan} \textcolor{white}{Phase 1} & 2021-2023 & 14 TeV & \SI{2e34}{cm^{-2}s^{-1}} & $\sim$\SI{350}{ fb^{-1}}\\
+\cellcolor{cyan} \textcolor{white}{LS3} 		&\cellcolor{lightgray}2024-2025 & \multicolumn{3}{l}{\cellcolor{lightgray}New Inner Trackker and trigger
+architecture}\\
+\cellcolor{cyan} \textcolor{white}{Phase 2} & 2026-2030 & 14 TeV & \SI{5e34}{cm^{-2}s^{-1}} & $\sim$\SI{3000}{fb^{-1}}\\
+\end{tabular*}
+\caption{LHC Schedule }\label{lhcschedule}
+\end{table}
+
 
 \subsection{ATLAS Detector}
-The ATLAS detector it is a general-purpose detector, designed to explore proton-proton colissions at center of mass up to $\sqrt{s}=$14 GeV. Looking for.... \par
-Such energy has been achived from 2015 and successfuly working with a luminosity of 1x10$^{34}$cm$^{-2}s^{-1}$ from 2016.\\
+The ATLAS detector it is a general-purpose detector, designed to explore proton-proton colissions at center of mass up
+to $\sqrt{s}=$14GeV at the Large Hadron Collider (LHC) at the European Laboratory for Particle Physics (CERN). Looking
+for understand the foundations of matter and forces, in particular the nature of mass in a broad physics programme,
+	including the capability of discovering the Higgs boson over a wide mass range and performing searches for the
+	production of heavy particles that would indicate phyics beyond the standard model, such as SUSY particles, as well as
+	searches for other massive objects. \par 
+To be able to detect such important and rare events this machine has mutliple and complex detector systems. In the
+central part of this cylinder we have the Inner Detector, the first part of ATLAS to see the decay products of the
+collisions, so it is very compact and hihgly sensitive. it consiste of three different systems of sensors all immersed
+in a magnetic field parallel to the beam axis. The {\bf Inner Detector} measures the direction, momentum, and charge of
+electrically-charged particles produced in each proton-proton collision. The next part is the Calorimeter (red and green
+on figure \ref{fig:ATLAS}), which  measure the energy of a particle when loses its energy as it pass through the
+detector. It is usually designed to stop entire or ``absorb" most of the particles coming form a collision, forcing them
+to deposit all of their energy whithin the detector. Calorimeters typically consist of layers of ``passive" or
+``absorbing" high-dense material -for example, lead- interleaved with layers of an ``active" medium such as solid
+lead-glass or liquid argon.\par
+\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{ATLAS.pdf}
+		\caption{ATLAS detector, Muon Spectrometer(in blue)}\label{fig:ATLAS}
+\end{figure}
+Electromagnetic calorimeters measure the energy of electrons and photons as they interact with matter. Hadronic
+calorimeters sample the energy of hadrons (particles that contain quarks, such as protons and neutrons) as they interact
+with atomic nuclei. The components of the ATLAS calorimetry system are: the {\bf Liquid Argon (LAr) Calorimeter} and the
+{\bf Tile Hadronic Calorimeter}.\par
+Calorimeters can stop most known particles except muons and neutrinos. Muons are particles that usually pass through the
+Inner Detector and Calorimeter undetected, they can penetrate through large amount of material without any strong
+interaction, they have long lifetime hence offering lepton decay channels for heavy objects as:
 
-\textcolor{red}{Describe ATLAS detector and its part, together with the problem faced by now.
-ENDING WITH THE FAKE TRIGGERS AND PROBLEMS FOR LOW PT.}
+\par
+
+For those particles the ATLAS detectors has the {\bf Muon Spectrometer}, made up of 4.000 individual muon chambers
+(drift
+chambers) is in charge of identify each one of this muons. This last detector system is a key point to help us finding
+new physics, thanks that this muons can be considered as a stable particles whithin the volumen range of the ATLAS
+detector, one can search for products from heavy particles decays to leptons, identifiying properly  its momentum. Well
+that part is provided by the {\bf Magnet System}, made of three sections; the {\bf Central Solenoid Magnet} with 2T
+magnetic field bends the
+charged particles for momentum measurement near the interaction points, helping the Inner Tracker system, the {\bf
+Barrel Toroid} bends the particles with low tranversal momentum, and the {\bf Endcap Toroid} with 4T take part of the
+high tranverse momentum.\par
+
+\subsubsection{Coordinate system}
+A common coordinate system is used through ATLAS. The interaction point is defined as the origin of the coordinate
+system. The z-axis runs along the beam line. The x-y plane is perpendicular to the beam line and is referred to as the
+tranverse momentum, $p_T$. The positive x-axis points from the interaction point to the de center of the LHC ring; the
+positive y-axis points upward to the surface of the earth. The detector half at positive z-values is referred to as the
+``A-side", to the other half the ``C-side". The transverse plane is often described in terms of $r-\phi$ coordinates. The
+azimutal angle $\phi$ is measured from the x-axis, around the beam. The radial dimension, $r$, measures the distance
+from the beam line. The polar angle $\theta$ is defined as the angle from the positive z-axis. The polar angle is often
+reported in terms of pseudorapidity, defined as $\eta = -\ln \tan (\theta/2)$. The distances $\Delta R$ is defined in
+$\eta-\phi$ space as $\Delta R = \sqrt{\Delta \eta^2 + \Delta \phi^2}$.\par
 
 
 
-\subsection{New Small Wheel}
 
-In manner to fullfill the LHC program (in fig.\ref{fig:a}), and in order to benefit from the expected high luminosity performance that will be provided by the
-Phase-I upgraded LHC, the first station of ATLAS muon end-cap system (Small Wheel, SW) will need to be replaced.  The New Small Wheel (NSW) will have to operate
-in a high background radiation region (upto 15kHz/cm$^2$) while reconstructing muon tracks with high precision as well as furnishing information for the Level-1
-trigger. These performance criteria are demanding. In particular, the precision reconstruction of tracks for offline analysis requires a spatial resolution
-about 100 \micro{m}, and the Level-1 trigger track segments have to be reconstructed online with an angular resolution of symroximately 1mrad. The NSW will have
-to chamber technologies, one primarily devoted to the Level-1 trigger function (small-strip Thin Gap Chambers, sTGC) and one dedicated to precision tracking
-(Micromegas detectors, MM). The sTGC are primarily deployed for triggering given their single bunch corssing identification capability. The MM detectors have
-exceptional precision tracking capabilities due to their small gap (5mm) and strip pitch (symroximately 0.5mm). Such a precision is crucial to maintain the
-current ATLAS muon momentum resolution in the high background environment of the upgraded LHC. The MM chambers can, at the same time, confirm the existence of a
-track segments found by the muon end-cap middle station (Big Wheels) online. The sTGC also has the ability to measure offline muon tracks with good precision,
-so the sTGC-MM chamber technology combination forms a fully redundant detector system for triggering and tracking both for online and offline functions. This
-detector combination has been designed to be ablo to also provide excellente performance for the eventual High Luminosity LHC upgrade.\par 
+%\textcolor{red}{Such energy has been achived from 2015 and successfuly working with a
+%luminosity of $\mathcal{L}=$\SI{1e34}{cm^{-2}s^{-1}} from 2016.}\\
+%\subsubsection{}
+
+\subsubsection{Detector Upgrade}
+
+In manner to fullfill the LHC program (in table \ref{lhcschedule}), and in order to benefit from the expected high luminosity
+performance that will be provided by the Phase-I upgraded LHC, the first station of ATLAS muon end-cap system (Small
+Wheel, SW) will need to be replaced.  The {\bf New Small Wheel (NSW)} will have to operate in a high background radiation
+region (up to \SI{15}{kHz/cm^2} of photons, and \SI{75}{Hz/cm^2} of neutrons) while reconstructing muon tracks with high precision as well as furnishing information for
+the Level-1 trigger. These performance criteria are demanding. In particular, the precision reconstruction of tracks for
+offline analysis requires a spatial resolution about 100\micro{m}, and the Level-1 trigger track segments have to be
+reconstructed online with an angular resolution of approximately 1mrad. \par
+\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{NSW.png}
+		\caption{New Small Wheel}\label{fig:nsw}
+\end{figure}
+
+The NSW will have two chamber technologies, one primarily devoted to the Level-1 trigger function (small-strip Thin Gap
+Chambers, sTGC) and one dedicated to precision tracking (Micromegas detectors, MM). The sTGC are primarily deployed for
+triggering given their single bunch corssing identification capability. The MM detectors have exceptional precision
+tracking capabilities due to their small gap (\unit{5}{mm}) and strip pitch (approximately 0.5\si{mm}). Such a precision is
+crucial to maintain the current ATLAS muon momentum resolution in the high background environment of the upgraded LHC.
+The MM chambers can, at the same time, confirm the existence of a track segments found by the muon end-cap middle
+station (Big Wheels) online. The sTGC also has the ability to measure offline muon tracks with good precision, so the
+sTGC-MM chamber technology combination forms a fully redundant detector system for triggering and tracking both for
+online and offline functions. This detector combination has been designed to be able to also provide excellente
+performance for the eventual High Luminosity LHC upgrade.\par 
 
 
 
-\section{Small-strip Thing Gap Chamber}
+\section{small-Strip Thing Gap Chamber}
 
-The Small strip Thin Gap Chamber (a.k.a sTGC) detector it is a multi-wire proportional chamber (MWPC)  working in a high gain mode with a cathode-anode pitch
-smaller than the anode-anode pitch, mostly based on the design of the Thin Gap Chamber\cite{tgc}, with thinner strips as the main improvement from the previous
-version. The TGC tecnology has been used since 1988 in OPAL experiment and currently are part of the the muon spectrometer in ATLAS. \\ This new  chamber has
-the advantage of having a 3.2mm strip width compare to the \textcolor{red}{5-6 mm} from the previous TGC, that is why it is called small strip Thin Gap
-Chamber.\\ The size of the strips has been choosen to cope up with the precision resolution require for the NSW (explained before), where it has to be better
-than 100 $\mu$m and provide a reponse with a few nanoseconds. For this purpose, chambers with different strips sizes has been build and test under pion beams,
-chosed the 3.2mm has the best option\cite{stripwidth}. \par
-%-------- sTGC Explanation -------
-
-The sTGC is made of two resistive cathods planes, one with csymer strips and the other with pads, each cathode plane is made of FR4 with 1.6mm of thickness,
-where  100 $\mu$m of csymer is etched for strips (pads) and then pressed with a 100 $\mu$m of FR4 over it and then sprayed with graphite to provide 100-200
-k$\Omega / \square$ (1 M$\Omega/\square$ for TGC) so it can be treatead as a resistive cathode plane.\\ The anodes are golden tungsten wires of 50 $\mu$m
-diameter, distributed at 1.8 mm between each other. The gas gap (2.8mm) is filled with a mixture of carbon dioxide (CO$_2$) and n-pentane(C$_5$H$_12$) in
-proportion 55:45 respectively both strongly quenching gases that provide a high amplification factor and relatively low sensitivity to mechanical
-variations.\textcolor{red}{[ref Mechanical variations]}\par  
-
-%----------- How its produce the ionization and drifts  -----
-
+The small-Strip Thin Gap Chamber (a.k.a sTGC) detector it is a multi-wire proportional chamber (MWPC), a detector type
+with a relativetely old technology, its succesfuly introduction to detector system in 1968 gave the
+Nobel prize to George Charpak in 1992. 
+Those devices has been a major ingredient in detector system since they can achieve spatial resolution of several
+microns, and has typical time resolution of about 50ns.
+The sTGC has been design to exploit these features,  working with a cathode-anode pitch smaller than the anode-anode pitch, mostly based on the design of the Thin Gap
+Chamber\cite{tgc}, with thinner strips as the main improvement from the previous version. The TGC tecnology has been
+used since 1988 in OPAL experiment and currently are part of the the muon spectrometer in ATLAS. \\ This new  chamber
+has the advantage of having a \unit{3.2}{mm} strip-pitch (\unit{2.7}{mm} strips and \unit{0.5}{mm} gap) compare to the \unit{6}{mm} from the previous TGC, that is
+why the  small strip prefix. Chambers with different strips sizes has been build and test under pion beams,
+chosed the \unit{3.2}{mm} as the best option\cite{stripwidth} to provide a resolution better than \unit{100}{\micro m}.
+This change will improve the measurement of charge centroid position by charge interpolation.\par
+To improve the time response, the cathode surface resisistivity has been reduce by
+a factor 10, to reduce charge accumulations on the cathode when chamber operates at high rate, lowering from 1
+M$\Omega/\square$ to 100-200k$\Omega / \square$ resisitivity on the graphite layer. At the same time cathode-readout
+plane (strips or pads) discance has been reduce to \unit{0.1}{mm}(\unit{1.6}{mm} before) to increase the capacitive coupling by 10, therefore the RC factor
+keeps unchanged
+ \par
 %----------- sTGC mode picture -----
 
 \begin{figure}[ht]
@@ -70,52 +154,73 @@ variations.\textcolor{red}{[ref Mechanical variations]}\par
 		\caption{Single plane sTGC}\label{fig:sTGC}
 \end{figure}
 
-A MWPC detector type  is a relativetely old technology, its succesfuly introduction to detector system in 1968 gave the Nobel prize to George Charpak in 1992.
-This device has been a major ingrediente in detector systems since it can achieve spatial resolutions of 500 $\mu$m or less, and has typical time resolution of
-about 30 ns.\\ The TGC has been built as a MWPC with a thinner gas gap, its means, the distance from the anode-cathode is smaller than the anode-anode (wire to
-wire) to provide a fast time response, and at the same time giving a higher amplification, to achieve this smaller distance, precautions must be taken into
-account when the internal pieces are construct, for that a precision of 50 $\mu$m must be achieve.\\ To work with such geometry several test were made to find
-the proper gas mixture\cite{gaschoice}. Find the most suitiable mixture of  55\% well known carbon dioxide as a quenching gas, and a 45\% of n-pentane, which
-for his nature can absorb energy in many ways of molecules  degree of freedom, vibrational, rotational, etc.\par 
+The sTGC is made of two resistive cathodes planes, with copper readout plane with strips on one layer and the other one
+with pads, with \unit{8x12}{cm$^2$} area used for fast pattern recognition of tracks to select strips for read out. A big
+advantage compare to the TGC, which has not this feature.\par
+The cathodes are made of FR4 with \unit{1.6}{mm} of thickness, where  \si{100}{\micro m} of copper is etched for strips (pads) and then
+pressed with a \unit{100}{\micro m} of FR4 over it and then sprayed with graphite to provide  for
+TGC) so it can be treatead as a resistive cathode plane.\\ The anodes are golden tungsten wires of \unit{50}{\micro m} diameter,
+distributed at \unit{1.8}{mm} between each other and a gas gap of \unit{2.8}{mm}. To work with such geometry several test were made to find the proper gas
+mixture\cite{gaschoice}. Find the most suitiable mixture of  55\% well known carbon dioxide(CO$_2$) as a quenching gas, and a
+45\% of n-pentane(n-C$_5$H$_{12}$), which allow it to work in a limited proportional region thanks to its capability to absorb UV photons
+due to its many ways of molecules degree of freedom, vibrational, rotational, etc.\par 
+\textcolor{red}{relatively low sensitivity to mechanical variations.[ref Mechanical variations]}\par  
+
+%----------- How its produce the ionization and drifts  -----
 
 
-\begin{itemize}
-\item voltaje de operacion.
-\item resitividad del graphito y para que usamos grafito.
-\item Que es lo moderno de este detector...
-\end{itemize}
+
+\subsection{Electric field simulation}
+
+
+math explanation of gain dependence of electrical field
+show countourplot for 5 wires and percentage of high electric field...
+blind spots!
+
+\subsection{Timming properties}
+it has a fast trigger within 25ns of first electrons arrivals.
+
+\subsection{}
 
 
 \section{Construction process}
-Since the main novelty on this detector is the high resolution obteined on xy plane due to the strip boards and the alignment between each chamber to get
-precission about 50\micro m and 30\micro m respectively, its important to discuss how we achieve those numbers. Everything relies on how well are those chamber
-built and also how the cathodes boards (strips and pads) are fabricated. The size of each chamber are around 1m$^2$ to 2m$^2$ and for the current fabricant it
-is complicated to achieve 50 \micro m resolution etching a pcb board accross 1.5 m without taking into consideration that the standard size for pcb boards are
-70 cm long.  The attempt of this sections is to give an idea how the sTGC Quadruplets are built, mostly on the first module 0 produce by UTFSM, which is the QS1
-(Quadruplet Small sector, part 1).  Being the smallest detector to be produce for the NSW, has some pro and cons. The main cons is related to the posistion of
-the QS1 inside the NSW, it is the closest one to the interaction point and for that it get the highest rate of particles. For the same reason the position
-resolution is a key point and the response against high rate particles it is a must.  Some pros are related to the size of it, with approximetely 1m long and 55
-cm the small side and 75 cm the large side of the trapezoidal shape, the sTGC QS1 can be handly without any problems, its 45 kg at the final step is easy to
-manage between two people, and with almost 1m long, the etching of strips boards (2.7 mm strip width and 0.5 mm etch) can be achieve with 50 \micro m. 
+Since the main novelty on this detector is the high resolution obteined on xy plane due to the strip boards and the
+alignment between each chamber to get precission about 50\micro m and 30\micro m respectively, its important to discuss
+how we achieve those numbers. Everything relies on how well are those chamber built and also how the cathodes boards
+(strips and pads) are fabricated. The size of each chamber are around 1m$^2$ to 2m$^2$ and for the current fabricant it
+is complicated to achieve 50 \micro m resolution etching a pcb board accross 1.5 m without taking into consideration
+that the standard size for pcb boards are 70 cm long.  The attempt of this sections is to give an idea how the sTGC
+Quadruplets are built, mostly on the first module 0 produce by UTFSM, which is the QS1 (Quadruplet Small sector, part
+1).  Being the smallest detector to be produce for the NSW, has some pro and cons. The main cons is related to the
+posistion of the QS1 inside the NSW, it is the closest one to the interaction point and for that it get the highest rate
+of particles. For the same reason the position resolution is a key point and the response against high rate particles it
+is a must.  Some pros are related to the size of it, with approximetely 1m long and 55 cm the small side and 75 cm the
+large side of the trapezoidal shape, the sTGC QS1 can be handly without any problems, its 45 kg at the final step is
+easy to manage between two people, and with almost 1m long, the etching of strips boards (2.7 mm strip width and 0.5 mm
+etch) can be achieve with 50 \micro m. 
 
 \subsection{Quality Control of cathode boards}
 
-The cathodes for the module0 were maid by an Italian company MDT, and since it was the first production, the review was done at their place.\\ The
-thickness of the board is measured in 19 points around the perimeter with a micrometer. The values of theses measurments must be whithin 1.6 mm $\pm$25\micro
-m,exceding this numbers lead to the partial rejection of the cathode boards, however if there is a single point deviation of less than $\pm$ 35\micro m about
-the average, it could be used in combination with another cathode board that does not have the same local deviation. The raw data is found in appendix X.\par An
-electrical test is donde with a multimiter, to check if there is any short between strips or pads depending on the cathode board.\par The last step and the most
-important is the dimensional control: this must be perform on a flat surface (done on a granite table at the construction site), with 2 pins that match the
-brass inserts on the cathode and using a special caliper above the cathode board the misalignment is measured. The caliper is an aluminuim ruler machining  with a precision of 30 \micro m
-at 20 Celsius degrees  has the same strip pitch for the first and last five strips and to avoid any paralax the thickness is the edge for those strips is 1mm. Looking
-with a lens glass around this point it posible to detect some misaligment between this two strips (caliper and cathode board). A photography is taken and
-analize to calculate this misaligment. For such distance (about 1 m long) some precaution must be take, considering the expansion coeficient for both material.
-machining with a precision of 30\micro m measure at 20 Celsius degrees.\par
+The cathodes for the module0 were maid by an Italian company MDT, and since it was the first production, the review was
+done at their place.\\ The thickness of the board is measured in 19 points around the perimeter with a micrometer. The
+values of theses measurments must be whithin 1.6 mm $\pm$25\micro m,exceding this numbers lead to the partial rejection
+of the cathode boards, however if there is a single point deviation of less than $\pm$ 35\micro m about the average, it
+could be used in combination with another cathode board that does not have the same local deviation. The raw data is
+found in appendix X.\par An electrical test is donde with a multimiter, to check if there is any short between strips or
+pads depending on the cathode board.\par The last step and the most important is the dimensional control: this must be
+perform on a flat surface (done on a granite table at the construction site), with 2 pins that match the brass inserts
+on the cathode and using a special caliper above the cathode board the misalignment is measured. The caliper is an
+aluminuim ruler machining  with a precision of 30 \micro m at 20 Celsius degrees  has the same strip pitch for the first
+and last five strips and to avoid any paralax the thickness is the edge for those strips is 1mm. Looking with a lens
+glass around this point it posible to detect some misaligment between this two strips (caliper and cathode board). A
+photography is taken and analize to calculate this misaligment. For such distance (about 1 m long) some precaution must
+be take, considering the expansion coeficient for both material.  machining with a precision of 30\micro m measure at 20
+Celsius degrees.\par
 
 %------- Photography strip cathode board measurement ------------ % 
 \begin{figure}[ht]
-	\centering
 	\hfill
+	\centering
 	\begin{subfigure}[b]{0.35\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{alignment.png}
@@ -133,53 +238,60 @@ machining with a precision of 30\micro m measure at 20 Celsius degrees.\par
 \end{figure}
 
 \subsection{Cathode preparation}
-Once the cathodes pass all the dimensional control are cleaned with Acetone and Isopropyl acohol and placedplaced on a granite table with a flatness of better
-than 30\micro m, and a vacuum system underneath and fixed on the edges with metal jigs which also has marks for the internal wire support or chamber section.
-The places which does not be sprayed with graphite, like the wire support and the edges are covered with a \unit{3.5}{mm} black tape to  the designated wire
-support locations across the board, and a blue tape the edges preventing spray graphite on the places where they will be glue. 
+Once the cathodes pass all the dimensional control are cleaned with Acetone and Isopropyl acohol and placedplaced on a
+granite table with a flatness of better than 30\micro m, and a vacuum system underneath and fixed on the edges with
+metal jigs which also has marks for the internal wire support or chamber section.  The places which does not be sprayed
+with graphite, like the wire support and the edges are covered with a \unit{3.5}{m m} black tape to  the designated wire
+support locations across the board, and a blue tape the edges preventing spray graphite on the places where they will be
+glue. 
 
 \subsection{Graphite spraying}
-A key point for this process is to prepare the 'painting' a mixture of Graphite-33 with Plastik-70 bonding agent. The graphite must be agitated for at least 2
-hours before mixing with Plastik-70. A proper ratio of 1500g Graphite and 540g Plastik is mixed for 20min before spraying.\par
-A spraying machine is in charge to get this process done, meanwhile a temperature and humidity must be controlled. After the cathode is painted the superficial
-resistance is measured on the edges and values above \unit{100}{k$\Omega/\square$} must get otherwise the cathode needs to be sprayed again.\par
+A key point for this process is to prepare the 'painting' a mixture of Graphite-33 with Plastik-70 bonding agent. The
+graphite must be agitated for at least 2 hours before mixing with Plastik-70. A proper ratio of 1500g Graphite and 540g
+Plastik is mixed for 20min before spraying.\par A spraying machine is in charge to get this process done, meanwhile a
+temperature and humidity must be controlled. After the cathode is painted the superficial resistance is measured on the
+edges and values above \unit{100}{k$\Omega/\square$} must get otherwise the cathode needs to be sprayed again.\par
 
 
 \subsection{Polishing}
-In manner to ensure an uniform resistivity across the chamber, the cathode is visually divide in 5x6 squares. Inside each square t
-e resistivity is measure in 5
-to 7 points with a probe and simultaneously brush it in the orientation that the wires will be wound. The brush must be done carefully without over-polish areas
-because onces resistance drops down nothing will bring it back up. 
+In manner to ensure an uniform resistivity across the chamber, the cathode is visually divide in 5x6 squares. Inside
+each square t e resistivity is measure in 5 to 7 points with a probe and simultaneously brush it in the orientation that
+the wires will be wound. The brush must be done carefully without over-polish areas because onces resistance drops down
+nothing will bring it back up. 
 
 
 \subsection{Glue internal parts}
-After removing all the blue and black tape, all the internal parts such buttons to provide mechanical support to the gas gap, the wire support which help them
-to not bend due to gravity and create catenary effect, and all the external frames to provide the \unit{1.4}{mm} height for the gas gap. All this part are
-cleaned with isopropyl alcohol, meanwhile the glue, a type of epoxy (2011-Araldite) is prepare. This glue will not only fix the part, also will fill the
-surfaces where those part are had less thickness than is requested.
+After removing all the blue and black tape, all the internal parts such buttons to provide mechanical support to the gas
+gap, the wire support which help them to not bend due to gravity and create catenary effect, and all the external frames
+to provide the \unit{1.4}{mm} height for the gas gap. All this part are cleaned with isopropyl alcohol, meanwhile the
+glue, a type of epoxy (2011-Araldite) is prepare. This glue will not only fix the part, also will fill the surfaces
+where those part are had less thickness than is requested.
 
 
-\subsection{Winding wires}
-A flat table which can spin around on one axis is used to winding the cathodes board. On each side of the table one cathode with all the internal parts
-previosly glued is mounted and tight it with metal clamps on the edges, meanwhile a vacuum is apply underneath to ensure the flatness of the cathode.
-A winding machine is in charge of this process, taking all the precautions to place every wire at \unit{1.8}{mm} between each other with \textcolor{red}{\unit{50}{\micro
-m} precision?}.\\
-After the process is done, all the wires are solderd in group of 10 in the wire rulers with \unit{10}{M$\Omega$} resistor to the high voltage line, later on the
-remaining wire can be cut and the metal clamps around the edges can be removed. 
+\subsection{Winding wires} A flat table which can spin around on one axis is used to winding the cathodes board. On each
+side of the table one cathode with all the internal parts previosly glued is mounted and tight it with metal clamps on
+the edges, meanwhile a vacuum is apply underneath to ensure the flatness of the cathode.  A winding machine is in charge
+of this process, taking all the precautions to place every wire at \unit{1.8}{mm} between each other with
+\textcolor{red}{\unit{50}{\micro m} precision?}.\\ After the process is done, all the wires are solderd in group of 10
+in the wire rulers with \unit{10}{M$\Omega$} resistor to the high voltage line, later on the remaining wire can be cut
+and the metal clamps around the edges can be removed. 
 
 
 \subsection{Detector Assembly}
 
-Once the Pad cathode board with all wires soldered is cleaned with clean water and dry with clean air. The board is place on the granite table, vacuum is
-applied underneath so it can be ready to connect it to high voltage. It is necessary to monitor the current from the cathode meanwhile the voltage is increased,
-starting with 100V and reach 3000V, every 100V step the current is monitoring and check that never goes higher than \unit{1}{\micro A}, if it is the case, the
-cathode needs to watch carefully on each corner to see some small sparks around dust or remaining glue from the previous process.\\
-Reaching the nominal current, the strip cathode board is placed against the pad cathode board carefully, and an aluminuim frame with a sillicon rubber is placed
-on top to isolate the chamber from the environment, afterwards the vacuum is applied to this chamber and only CO2 is flushing inside the chamber. Now it is the
-time to turn on the power supply and watch if there is no sparks (monitoring the current), if it is not the case, the glue is prepared to close the chamber
-inmediataly to prevent any dust enter the chamber when the sillicon ruber and the strip cathode board is remove. Finishing this process, a \underline{single chamber
-detector is considered done}.\\
-Closing two chambers is possible build a doublet, for that it is necessary to glue a honeycomb with a well known thickness (\unit{5$\pm$0.02}{mm}) 
+Once the Pad cathode board with all wires soldered is cleaned with clean water and dry with clean air. The board is
+place on the granite table, vacuum is applied underneath so it can be ready to connect it to high voltage. It is
+necessary to monitor the current from the cathode meanwhile the voltage is increased, starting with 100V and reach
+3000V, every 100V step the current is monitoring and check that never goes higher than \unit{1}{\micro A}, if it is the
+case, the cathode needs to watch carefully on each corner to see some small sparks around dust or remaining glue from
+the previous process.\\ Reaching the nominal current, the strip cathode board is placed against the pad cathode board
+carefully, and an aluminuim frame with a sillicon rubber is placed on top to isolate the chamber from the environment,
+afterwards the vacuum is applied to this chamber and only CO2 is flushing inside the chamber. Now it is the time to turn
+on the power supply and watch if there is no sparks (monitoring the current), if it is not the case, the glue is
+prepared to close the chamber inmediataly to prevent any dust enter the chamber when the sillicon ruber and the strip
+cathode board is remove. Finishing this process, a \underline{single chamber detector is considered done}.\\ Closing two
+chambers is possible build a doublet, for that it is necessary to glue a honeycomb with a well known thickness
+(\unit{5$\pm$0.02}{mm}) 
 
 
 \subsection{Planarity and thickness measurements}
@@ -187,20 +299,29 @@ Total thickness.
 
 \section{Gain uniformity measurements}
 
-After the chambers are built it is important to know the response of the detector, and a primitive way to do such thing without any electronic readout attach
-to strips or wires, is to measure the current draw from the power supply and see how it behaves to a radiation source.\\ There are two ingredients that can
-produce gain variations on wire detectors, the first one is the \'nature" gain fluctuations from the charge production in proportional counters which follow
-Polya distribution, however is less pronounced in semi-proportional mode such as sTGC working region.\\ The second one is related to the mechanical tolerances,
-this part is very well known since 40 years as it is presented on Sauli's book about drift chambers and tell us that for a diameter variations of the wire about
-1\% (fabrication precision) will result on a 3\% change in the gain, where as about \unit{100}{$\mu$m} difference in the gas gap thickness (\unit{2.7}{mm})
-results in about 15\% change of the gain. The effect of a wire displacement of about \unit{100}{$\mu$m} of a wire plane results in 1\% int the charge of the two
-adjacent wires which with a gain of $\sim10^6$ will give a $\sim10\%$ change in the gain.\\ Taking all of this in consideration is expected to get a gain variation less
-than 20\% as Quality Acceptance.\\ In this test the gain is considered as the current draw measured from the power supply and its need to test under two
-different working points (bias voltage), one when the chamber it is not in the limited proportional region, 2500 volts, a take it as a reference compare to the
-2900 volts which is the operational voltage.\par
+After the chambers are built it is important to look for any malfunctioning. To check the behaivour of the detector without
+any electronic readout attach to strips or wires, is to use a radiation source and move it acrros the de
+sensitive area and expect the same behaviour current draw from it. This will give us a the first answer of the gain of
+our detector.\par
+In this test it is important to understand what can produce variation on the gain. There are two ingredients that can produce gain variations on wire detectors,
+the first one is the \'nature" gain fluctuations from the charge production in proportional counters which follow Polya
+distribution, however is less pronounced in limited-proportional mode such as sTGC working region.\\
+The second one is related to the mechanical tolerances, this part is very well known since 40 years as it is presented
+on Sauli's book\textcolor{red}{Insert ref} about drift chambers and tell us:
+\begin{itemize}
+\item A diameter variations of the wire about 1\% (fabrication precision) will result on a 3\% change in the gain.
+\item  \unit{100}{\micro m} difference in the gas gap thickness(\unit{2.7}{mm}) results in about 15\% change on the gain.
+\item The effect of a wire displacement of about \unit{100}{$\mu$m}
+of a wire plane results in 1\% in the charge of the two adjacent wires which with a gain of $\sim10^6$ will give a
+$\sim10\%$ change on the gain.
+\end{itemize}
+Taking all of this in consideration is expected to get a gain variation less than 20\% as Quality Acceptance on the
+Construction manual\textcolor{red}{Insert Ref}.\par
+In this test the gain is considered as the current draw measured from the power supply and its need to test under two different working points (bias voltage), one when the chamber it is not in the limited
+proportional region, 2500 volts, a take it as a reference compare to the 2900 volts which is the operational voltage.\par
 
 %-------- why x ray source ? ----------
-For such test the x-ray source is used due to the many advantages:\par
+For such test the x-ray source is used thanks to the advantages:\par
 \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=2pt]
 	\item Mostly mono-energetic photons.
 	\item Variable current: which can provides different rates. [\unit{1}{$\mu$A} - \unit{200}{$\mu$A}]
@@ -211,62 +332,404 @@ For such test the x-ray source is used due to the many advantages:\par
 
 
 \subsection{Setup}
-To perform such test a x-ray gun called Mini-x from Amptek is used, with silver (Ag) as transmission target with a beryllium (Be) end window is used.
-Working under \unit{50}{kV} with \unit{45}{$\mu$A}, the emission spectra Fig.\ref{fig:minixgun} show two main photo peaks with 22 and 25 keV. The
-aperture emissions is about 120 degrees, so a collimator of 5 degrees is placed to provide a spot size of \unit{4}{mm}.\\ The gun is mounted on a
-robot arm KUKA, to move it across the detector irradiating a long the wires. Since the high voltage power supply give us a current average per
-second, the vertical and horizontal step can be adjust to perform a spot size of 4$mm^2$ however the Mini-x device had some overheat issues so a
-\unit{5}{cm} vertical step was chosen to perform a full irradiation test in less time. A more suitable step would be \unit{1}{cm} to detect
-internal structures of similar sizes. The horizontal step was \unit{1.5}{cm}, enough to change completely from group wires, although it will better
-to improve the granularity it is not possible since the issue explained before.
+To perform such test a x-ray gun called Mini-x from Amptek is used, with silver (Ag) as transmission target with a
+beryllium (Be) end window is used.  Working under \unit{50}{kV} with \unit{45}{$\mu$A}, the emission spectra
+Fig.\ref{fig:minixgun} show two main photo peaks with 22 and 25 keV. The aperture emissions is about 120 degrees, so a
+collimator of 5 degrees is placed to provide a spot size of \unit{4}{mm}.\\ The gun is mounted on a robot arm KUKA, to
+move it across the detector irradiating a long the wires. Since the high voltage power supply give us a current average
+per second, the vertical and horizontal step can be adjust to perform a spot size of 4$mm^2$ however the Mini-x device
+had some overheat issues so a \unit{5}{cm} vertical step was chosen to perform a full irradiation test in less time. A
+more suitable step would be \unit{1}{cm} to detect internal structures of similar sizes. The horizontal step was
+\unit{1.5}{cm}, enough to change completely from group wires, although it will better to improve the granularity it is
+not possible since the issue explained before.
+
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.5\textwidth]{minix_ag_1.png}
 	\caption{X-ray emission spectra from Mini-X gun}\label{fig:minixgun}
 \end{figure}
 
-The irradiation test is taken in approximately one hour and the four chamber are done at the same time, meanwhile the division of each chamber are
-connected to the same HV channel. 
+The irradiation test is taken in approximately one hour and the four chamber are done at the same time, meanwhile the
+division of each chamber are connected to the same HV channel. 
+
+
+
+
 \subsection{Results}
-The next two set of histograms shows the distribution of the current draw at two different voltage, one at 2500V to take it as  reference since the cahmber can
-be consider with no gain (no proportional mode), and the second one the voltage at what our chamber must be working 2900V.\\
-On the Figure \ref{fig:2500V} an average of approximately \unit{200}{nA} can be observe on the four layers, considering \unit{50}{nA} when no source is present
-(leakage current).
-As previously discuss the important part is to get how uniform are the chambers across the whole sensitivity area, even the places where the internal parts are
-found, such a wire supports and buttons, which in that case a notoriously decrease of gain (less current draw) is expected due to the lack of gas volume, and so
-no amplification.\\
-On the Fig\ref{fig:2900V} the current draw for each single chamber is shown with uniformity less than 17\%. Definitely improve the uniformity if only the places without wire
-support are removed, having a XX\%.
-\begin{figure}[hb]
+The next two set of histograms shows the distribution of the current draw at two different voltage, one at 2500V to take
+it as  reference since the cahmber can be consider with no gain (no proportional mode), and the second one the voltage
+at what our chamber must be working 2900V.\\ On the Figure \ref{fig:2500V} an average of approximately \unit{200}{nA}
+can be observe on the four layers, considering \unit{50}{nA} when no source is present (leakage current).  As previously
+discuss the important part is to get how uniform are the chambers across the whole sensitivity area, even the places
+where the internal parts are found, such a wire supports and buttons, which in that case a notoriously decrease of gain
+(less current draw) is expected due to the lack of gas volume, and so no amplification.\\
+
+On the Fig\ref{fig:2900V} the current draw for each single chamber is shown and an  uniformity less than 17\% is
+obteind, calculated as rms percentage over  mean. 
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.8\textwidth]{uniformity_2500.pdf}
 	\caption{Current from power supply at 2500V}\label{fig:2500V}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[hb]
 	\centering
-	\includegraphics[width=0.8\textwidth]{uniformity_2900.pdf}
+	\includegraphics[width=0.8\textwidth]{uniformity.png}
 	\caption{Current from power supply at 2900V}\label{fig:2900V}
 \end{figure}
-
-
-\section{Test under high rate}
-
-
-One of the key feature of this detector is to be able to work under different particles rates, and if it is capable of handle rates higher than
-\unit{15}{kHz/cm$^2$}. For this Test of module0 inside of GIF++, together with rate measurement with small TGC monitor. 
-Detector test under different atteuation filters.
-
-\begin{figure}
+\begin{figure}[hb]
 	\centering
-	\includegraphics[width=0.7\textwidth]{monitor.png}
-	\caption{Monitor rate}
-	\includegraphics[width=0.7\textwidth]{rate_filters.png}
-	\caption{Filters applied}
+	\includegraphics[width=0.6\textwidth]{xy_scan.png}
+	\caption{XY Scan Layer 3 sTGC Module \#0}\label{fig:xy_scan}
 \end{figure}
 
-\section{Spatial resolution strips}
-\newpage
-\section{Charge sharing between pads}
-\newpage
-\section{summary}
+
+\section{Stability under high count rate of $\gamma$-rays}
+
+One of the key feature of this detector is that must be able to work under high particles flow
+rates (\unit{15}{kHz/cm$^2$}), and the first step is
+check weather the device or its electronic components can handle this high rate. For this purpose the module 0 was
+placed inside of a High Radiation Facility at CERN called GIF++.
+The instalation has a Cesium-137 as a gamma source with an activity of approximately \unit{17}{TBq} and different attenuation
+filters can be applied to get the flux needed. 
+To get the particle rate a small size sTGC was installed as a {\bf Monitor}, which has the electronic readout from each
+wire group, equipped with the SONY card (\textcolor{red}{provide description}).
+
+Our module 0 together with the monitor was placed at 1.3m distance from the source, both connected in serie to the same
+gas line, the temperature and preasure was recored to keep in track the working voltage, where most of the time the
+enviromental conditions were 25 Celsius degree and \unit{971}{mb}.\\
+
+\begin{figure}[!hb]
+	\centering
+	\includegraphics[width=0.6\textwidth]{monitor.png}
+	\caption{Monitor rate}\label{fig:monrate}
+\end{figure}
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{rate_filters.png}
+	\caption{Filters applied}\label{fig:filters}
+\end{figure}
+On the fig.\ref{fig:monrate} the event rate register with the monitor is shown at different attenuation filters from the
+gamma source, where attenuation 1 means \unit{5}{TBq}. The
+brown region is our working region, and the red dot lines are the limits where our chamber must working inside the ATLAS
+cavern. On fig. \ref{fig:filters} the  event rate is shown applying the attenuation factors which the gamma filters
+provide, so all the lines must join, however we do see some inefficency when the rate goes higher than \unit{20}{kHz/cm} (blue
+line), but at the same time, our interest shoudl go on the red line (attenuation factor of 2.2) which gives us the
+background level present on the upgrade. If we compare it with lowest rates, the efficiency is about 95\% at
+\unit{2.9}{kV}.
+
+%----------------- SPATIAL RESOLUTION ---------------
+
+
+\section{Spatial Resolution}
+In order to achieve the precision reconstruction of tracks (offline) with a spatial resolution of about
+\unit{100}{\micro m} per sTGC layer, and fast trigger on the region of interest (ROI) with Pads, two test beams were done.\\
+In the spring of 2014, the Weizmann Institute of Science in Israel built the first full-size sTGC quadruplet detector of
+dimensions \unit{1.2x1.0}{m$^2$}. This prototype consists of four sTGC strip and pad layers and is constructed using the full
+specification of one of the quadruplets to be used in the NSW upgrade (the middle quadruplet of the small sector).
+The first test beam experiment took place at Fermilab with one goal in mind, determine the position resolution of a
+full-size sTGC.\\par
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.5\textwidth]{telescope.png}
+	\caption{\small Schematic diagram of the experimental setup at Fermilab and coordinate systems used. Three layers of silicon pixel sensors are positioned before and after the sTGC detector.The dimensions are not to scale.}\label{fig:telescope}
+\end{figure}
+EUDET pixel telescope were use as a reference for measure beam position, using the technology of 6 Minimum Ionizing MOS
+Active Pixel Sensor (Mimosa26) detectors with $\approx 5 \mu$m position resolution. Three in front of the beam, and three
+after the sTGC as is shown in fig.\ref{fig:telescope} with \unit{15}{cm} between them and \unit{64}{cm} between each arm.
+Each Mimosa26 detector has an active area of \unit{2.24}{cm$^2$} made of CMOS pixel
+matrix of 576 rows and 1152 columns with \unit{18.4}{\micro m} pitch.\par
+A \unit{32}{GeV} pion beam was used at rate of \unit{1}{kHz} over a spot of \unit{1}{cm$^2$} giving to the sTGC a very
+precise pion trayectory thanks to the EUDET telescope.
+Event triggering was controlled by a custom Trigger Logic Unit (TLU). The TLU received signals from two
+\unit{1x2}{cm$^2$}
+scintillators placed in front and behind the telescope. The TLU generated the trigger signal that was distributed to the
+telescope and the sTGC readout electronics, which consist of a first application-specific integrated circuit (ASIC)
+called VMM1 which has the ability to read out both positive (strips, pads) and negative (wires) polarity
+signals, on 64 individual readout channel. The VMM1 analog circuit features a charge amplifier stage followed by a
+shaper circuit and outputs the analog peak value (P) of the signal.The readout of the ASIC is zero suppressed and thus
+only peak values of channels with signals above a predefined threshold are read and at the same time the VMM1 may be
+programmed to provide the input signal amplitude of channels adjacent to a channel above threshold (neighbour-enable
+logic), which in case of the strips is strictly necesary due to the cluster size is about 3-5 strips.\par
+The precise position of a charged particle traversing an sTGC gas volume can be estimated from a Gaussian fit to the
+measured charge on adjacent readout strips (referred to as strip-clusters from here on). Given the strip pitch of
+\unit{3.2}{mm}
+and sTGC geometry, charges are typically induced on up to five adjacent strips. The spatial sampling of the total
+ionization signal over a small number of readout channels means that a precise knowledge of each individual readout
+channel baseline is necessary in order to achieve the best possible measured spatial resolution. The baseline of each
+individual readout channel was measured by making use of the neighbour-enabled logic of the VMM1 and its internal
+calibration system. Test pulses were sent on one readout channel with the neighbour-enabled logic on, and baseline
+values were obtained by reading out the analog peak values of the two chan- nels adjacent to the one receiving a test
+pulse.\par
+The silicon pixel hit positions were then used for reconstructing straight three dimensional charged-particle tracks. A
+track quality parameter was obtained for each fitted pion track based on the $\chi^2$ of the track-fit. A small value of the track quality parameter corresponds to a straight track and a cut on this parameter can therefore be used to mitigate
+multiple scattering which are not considered in this analysis.
+\subsection{Analysis Model}
+\subsubsection{Pixel telescope analysis}
+In this model the intrinsic position resolution is obteined comparing the extrapolated beam trayectory from the pixel detectors
+wtih the measurements in each of the sTGC quad planes. Each layer is analyzed separately to reduce the effect of the
+multiple scattering and only tracks with $\chi^2<10$ are considered for the same reason. From fig.\ref{fig:telescope}
+you can see that the {\it y-axis} is defined perpendicular to the strips, therefore sTGC strip-clusters provide
+measurements of the particle position in the y-direction($y_{sTGC}$).
+The position resolution is directly related to the profile of induced charge on the strips. The particle position is
+estimated from a Gaussian fit to the induced charge distribution on the strips. The neighbour-enabled logic of the VMM1
+was used. Strip-clusters with induced charge in either 3, 4 or 5 adjacent strips are selected.\par
+The pixel telescope tracks provide both coordinates, x$_{pix}$ and $y_{pix}$ at the position of the sTGC layer studied. The
+spatial resolution measurement is obtained by fitting the residual distribution $y_{sTGC}$  and $y_{pix}$ with a Gaussian model.\par
+
+
+\begin{figure}[ht]
+	\centering
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{strip-pitch.png}
+		\caption{The differential non-linearity for sTGC strip-clusters}\label{fig:pitchfit}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{strip-aligned.png}
+		\caption{The differential after sinusoidal correction is applied}\label{fig:pitchaligned}
+	\end{subfigure}
+	\hfill
+	\caption{Charge distribution over strip-pitch}\label{fig:strip-pitch}
+\end{figure}
+
+
+The charge measured on the strips of the sTGC detector results from a spatial sampling and discretization of the induced
+charge. The process of reconstructing the sTGC strip-cluster position from this sampling introduces a differential
+non-linearity effect on the reconstructed strip-cluster position. The deviation of the measured strip-cluster position
+from the expected position (estimated by the pixel telescope track) depends on the strip-cluster position relative to
+the strips.
+This dependence is clearly seen in the two dimensional distributions in Fig.\ref{fig:pitchfit}. It shows the y-residual versus
+strip-cluster position relative to the closest inter-strip gap center $y_{sTGC,0}^{rel}$. This effect is corrected using
+a sinusoidal function.
+\begin{equation}
+ y_{sTGC} = y_{sTGC,0}-a_i\sin \left(2\pi y_{sTGC,0}^{rel}\right)
+\end{equation}
+where $y_{sTGC,0}$ is the strip-cluster mean resulting from the Gaussian fit and $y_{sTGC}$ is the corrected particle
+position estimator. The amplitude parameters are denoted $a_i$ for the 3,4 and 5 strip-mutiplicity (cluster size). These
+amplitude parameters are free parameters in the fit. The values of the amplitude parameters obtained from the fit to
+data are compatible with being equal for the three strip-cluster multiplicity as shown in table \ref{table}.\par
+
+\begin{table}
+	\centering
+	\caption{Fit parameters per cluster size}\label{table}
+	\begin{tabular}{cc}
+	\hline
+	Strip-cluster multiplicity $i$ & Amplitude parameter $a_i$\\
+	\hline
+	3 & 205 $\pm$ 9\\
+	4 & 206 $\pm$ 4\\
+	5 & 211 $\pm$ 5\\
+	\hline
+	\end{tabular}
+\end{table}
+
+The correction function is therefore universal and is shown in Fig.\ref{fig:pitchfit}. The two-dimensional
+distrubition after the correction is applied was to be reasonably flat as shown in Fig.\ref{fig:pitchaligned}.\par
+The alignment of the coordinate system of the pixel telescope with respecto to the above-defined coordinate system of
+the sTGC layer also affects the measured residual distribution. A simple two-paramter model is used to account for
+translations and rotations of the two coordinate systems with respecto to each other. Both the alignment correction and
+the differential non-linearity correction are included {\it in situ} in the analisys. The alignment correction is
+introduced in the model by expressing the pixel track position in the sTGC-layer coordinate system $y_{pix}$, is a
+function of the track position in the pixel telescope coordinate system $x_{pix}'$ and $y_{pix}'$, and two misalignment
+parameters $\delta y$ and $\phi_{xy}$, as follows:
+\begin{equation}
+y_{pix}=-x_{pix}' \sin \phi_{xy} + y_{pix}'\cos \phi_{xy}+\delta y
+\end{equation}
+The variable $\delta y$ corresponds to a misalignment along the y-axis of the sTGC coordinate system, and $\phi_{xy}$
+corresponds to a rotation of the telescope coordinate system in the x-y plane around the z-axis of the sTGC coordinate
+system. Translation and rotation misalignment along and around the other axis are not taken into account in this model,
+since they are expected to have a small impact on the determination of the intrinsic position resolution.\par
+
+
+\begin{figure}[ht]
+	\centering
+	\hfill
+	\begin{subfigure}[b]{0.42\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{y-xplane.png}
+		\caption{Residual y against x position on pixel telescope.}\label{xyplanefit}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.42\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{y-xplanerotate.png}
+		\caption{After rotation and translation applied}\label{xrotate}
+	\end{subfigure}
+	\hfill
+	\caption{Coordinate system correction}\label{rotation}
+\end{figure}
+On the figure\ref{xyplanefit} is possible to observe the y-residual mean increase linearly as a function of the x
+position on the telescope called x$'_{pix}$, which is evidence for a small rotation between the two coordinate systems. 
+The red line represents the correction applied to this dataset. Accounting for this correction results in a distribution
+that is independent of x$'_{pix}$ on figure \ref{xrotate}.\par
+After all the corrections applied, the calculations for the intrinsice resolutions are taking each layer from the sTGC
+and comparing the residual distribution, and fitted by a double Gaussian function, where the first one represent the core
+of the residual distrubution and the second is a wider Gaussian which represent some reconstructed strip-cluster from
+background sources.
+\begin{eqnarray*}
+F_i &=& F_i(y_{sTGC,0}, y_{sTGC,0}^{rel}, x'_{pix},y'_{pix};\delta y,\phi_{xy},a_i,\sigma,f,\sigma_w)\\
+		&=& f G(y_{sTGC}-y_{pix};0,\sigma) + (1-f)G(y_{sTGC}-y_{pix};0,\sigma_w)
+\end{eqnarray*}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.4\textwidth]{resTelescope.png}
+\caption{Intrinsic resolution of layer 4, respect to pixel telescope.}\label{restelescope}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\hfill
+\caption{Summary of pixel telescope analysis}\label{summary}
+\begin{subfigure}[b]{0.3\textwidth}
+\includegraphics[width=\textwidth]{beampos.png}
+\caption{Beam position for different data sets on sTGC}\label{beampos}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.6\textwidth}
+\centering
+\includegraphics[width=\textwidth]{summaryTelescope.png}
+\caption{Summary of intrisic resolution for each data set and layer of sTGC}\label{}
+\end{subfigure}
+\hfill
+\end{figure}
+
+
+On figure\ref{restelescope} a set of events shows the distribution presented before with a intrinsic resolution
+parameter $\sigma$ of about
+\unit{44}{\micro m} for a representative data taking run and sTGC strip-layer, where on red is the narrow Gaussian fit
+and on braking red line the wider Gaussian fit. The fraction of the data parameterized by the narrow Gaussian and it is
+typically around 95\% with a RMS of about 2\%. The rest of data taking runs and its beam position can be observe on
+figure \ref{summary}, where the black circles represent the valid data and the open circles the runs with expected
+degration due detector structure support or mis-calibrations.\par
+
+
+
+
+%----------------- STANDALONE ANALYSIS 	---------------
+
+
+\subsubsection{sTGC standalone analysis}
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth]{resStandalone.png}
+\caption{}\label{pairwise}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth]{summaryStandalone.png}
+\caption{}\label{}
+\end{subfigure}
+\end{figure}
+
+In this analysis the correction for the differential non-linearity respect to strip-ptich obtained before is keeped,
+however the residual distribution of the y-position is calculated from two pairwise layer of the sTGC, therefore half of
+the variance of this distribution correspond to our parameter to estimate the intrinsic resolution for one layer, hence
+$\sigma = \sigma_{residual}/\sqrt{2}$ and a strip-layer position residual distribution for a representative sTGC
+standalone data taking run is shown in figure \ref{pairwise}. In this graph, a intrinsic resolution of $\sigma=40.8\pm0.8\mu m$ is obtained.\par 
+In summary for fourteen data sets, the intrinsic resolution with this analysis is about \unit{45}{\micro m}. The white open
+circles on the graph \ref{summary} correspond to non-validate data due to wire-support position or mis-calibrations. The
+hash band represent the RMS spread and the blue line the average.\par 
+
+
+
+\section{Pad efficiency}
+One of the new features of the small-strip Thin Gap Chamber compare to its previous version is the posibility to provide
+a fast trigger for the Region of Interest from the \unit[8x50]{cm$^2$} pad area, where 3 out of 4 pads from a sTGC
+quadruaplet can confirm a particle candidate, therefore a track position can be obtained from the strips within this
+area.\par
+A test beam experiment was conducted at the CERN H6 facilities, using a \unit[130]{GeV} muon beam of about
+\unit[4]{cm}
+radius, a wider beam spot to test the characteristics of the pads. The setup is shown in figure \ref{padsetup} where the system was
+triggered by a set of scintillators (in blue) with a \unit[12x12]{cm$^2$} coincidence area.\par
+As explained before, for the beam tests a preliminary front-end electronics based on the VMM1 was used. This ASIC
+provide a Time-over-threshold signal as digital output, however is also possible to get a analog pulses.
+During the test beam, using the present configuration an inefficiency was observed related to small late charges from
+the sTGC detector which may be not well adapted to the VMM1. An efficiency of 80-90\% was observe running at
+\unit[100]{kHz/cm$^2$}.\par
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.6 \textwidth]{padSetup.png}
+\caption{Setup for pad measurments, coincidence block on ligth green.}\label{padsetup}
+\end{figure}
+
+
+To ensure that no inefficiency was due the the detector itself, the large cathode pads were used to estimate the detector
+efficiency, which was measured by looking at the analog output of the fron-end amplifier. The efficiency of the pad $n$
+in the first layer was defined with respect to the coincidence of the trigger with a signal in the fully overlapping pad
+of the second layer. \par
+
+
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth]{padnormal.png}
+\caption{ToT signal from pad L1, pad L2 as a trigger}\label{scope1}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\includegraphics[width=\textwidth]{paddeadtime.png}
+\caption{Large dead time on ToT signal from pad L1}\label{scope2}
+\end{subfigure}
+\caption{Digital and analog signal from VMM1}\label{scope}
+\end{figure}
+
+Two examples from this configurations is shown on figure \ref{scope}, on the left a two analog signals from pads are
+present with a ToT signal from layer 1 with about 2 \micro s length, meanwhile on the right picture a long ToT pulse with more
+than 40 \micro s length when the two analog signal are present. By recording hundreds of triggered events using an
+oscilloscope, the presence of a detector signal whithin the live-part of the front-end electronics (independent of the
+signal threshold) was checked. This test confirmed that the detector was 100\% efficient.\par
+
+
+\subsubsection{charge sharing between pads}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.5\textwidth]{chargepos.png}
+\caption{Pad region transition scheme}\label{chargepos}
+\end{figure}
+
+In manner to study the transition region between pads, the scintillator coincidence triggering area and the particle
+beam were centred between pad $n$ and pad $n+1$ of the first layer, as illustraded in Figure \ref{chargepos}.\par
+After applying timming quality requirements on the strip and pad hits, the channel baseline values are subtracted from
+the analog peak values. Strip-clusters with induced charge in either 3,4 or 5 adjacent strips are selected and
+calibrated in the same way as for the Fermilab beam test. Events with a single strip-cluster in the first layer and the
+second layer are selected. The strip-cluster position (mean of the fitted Gaussian) in the first layer is used to define
+the position of the particle going through the detector. The events are further required to contain a hit above
+threshold on either pad $n$ or pad $n+1$. The charge fraction ($F$) is defined using the analog peak values ($P$) of the two
+adjacent pads:
+\begin{equation}
+F = \frac{P_n - P_{n+1}}{P_n + P_{n+1}}
+\end{equation}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{chargeSharing.png}
+\caption{Charge Sharing distritbution}\label{chargeSharing}
+\end{figure}
+
+Figure \ref{chargeSharing} shows the charge fraction as a function of the position with respect to the centre of the
+transition region, where the two pads share more than 70\% of the induced charge, spans about \unit{4}{mm}.
+
+
+
+
+
+
+
+
+\section{Summary}
+Simulations, construction , calibrations, characterization of sTGC has been done. 
+What's next? Test with cosmic rays for efficiency measurements, and test under hadron and muon beams with NSW electronic
+readout. 
