@@ -1,19 +1,46 @@
 \begin{thebibliography}{1}
 
+\bibitem{garfield2}
+Garfield++ project web page.
+\newblock \url{http://garfieldpp.web.cern.ch/garfieldpp/}.
+
+\bibitem{atlas}
+ATLAS collaboration.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the atlas detector at the lhc.
+\newblock {\em Physics Letters B}, 716:1--29, 2012.
+
+\bibitem{cms}
+CMS collaboration.
+\newblock Observation of a new boson at a mass of 125 gev with the cms
+  experiment at the lhc.
+\newblock {\em Physics Letters B}, 716:30--61, 2012.
+
 \bibitem{tgc}
-G.Mikenberg.
+G.Mikenberg et~al.
 \newblock Thin-gas gap chambers for hadronic calorimetry.
 \newblock {\em Nucl. Instr. and Meth. A}, 265:223--227, 1988.
+
+\bibitem{stripwidth}
+V.Smakhtin et~al.
+\newblock Thin gap chamber upgrade for slhc: Position resolution in a test
+  beam.
+\newblock {\em Nucl. Instr. and Meth. A}, 598:196--200, 2009.
+
+\bibitem{sauli}
+F.Sauli.
+\newblock {\em Principle of operation of multiwires proportional and drift
+  chambers}.
+\newblock CERN, 1977.
 
 \bibitem{gaschoice}
 S.Majeski.
 \newblock A thin wire chamber operating in a high multiplication mode.
 \newblock {\em Nucl. Instr. and Meth A}, 217:265--271, 1983.
 
-\bibitem{stripwidth}
-V.Smakhtin.
-\newblock Thin gap chamber upgrade for slhc: Position resolution in a test
-  beam.
-\newblock {\em Nucl. Instr. and Meth. A}, 598:196--200, 2009.
+\bibitem{garfield1}
+R.~Veenhof.
+\newblock Garfield, recent developments.
+\newblock {\em Nucl. Instr. and Meth A}, 419:726--730, 1988.
 
 \end{thebibliography}

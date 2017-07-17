@@ -1,46 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-The style file: abbrv.bst
+The style file: plain.bst
 Database file #1: reference.bib
-You've used 3 entries,
+Warning--to sort, need author or key in garfield2
+You've used 8 entries,
             2118 wiz_defined-function locations,
-            517 strings with 4021 characters,
-and the built_in function-call counts, 868 in all, are:
-= -- 87
-> -- 21
+            541 strings with 4820 characters,
+and the built_in function-call counts, 2043 in all, are:
+= -- 203
+> -- 50
 < -- 0
-+ -- 10
-- -- 6
-* -- 56
-:= -- 153
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 12
++ -- 23
+- -- 14
+* -- 118
+:= -- 347
+add.period$ -- 23
+call.type$ -- 8
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 33
-empty$ -- 79
-format.name$ -- 6
-if$ -- 181
+cite$ -- 9
+duplicate$ -- 85
+empty$ -- 197
+format.name$ -- 14
+if$ -- 437
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 6
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 42
+num.names$ -- 14
+pop$ -- 28
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 23
 quote$ -- 0
-skip$ -- 21
+skip$ -- 56
 stack$ -- 0
-substring$ -- 79
-swap$ -- 3
+substring$ -- 152
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 9
-width$ -- 4
-write$ -- 35
+type$ -- 30
+warning$ -- 1
+while$ -- 20
+width$ -- 9
+write$ -- 85
+(There was 1 warning)

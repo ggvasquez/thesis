@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JUL 2017 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 JUL 2017 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,6 +81,11 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language83
+LaTeX Info: Redefining \_ on input line 43.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks17
@@ -1052,6 +1057,33 @@ LaTeX Info: Redefining \% on input line 24.
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `table' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
 LaTeX Warning: Label `sub@' multiply defined.
 
 )
@@ -1266,7 +1298,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count186
 
-(./titlepage.tex <images/logo2.pdf, id=241, 243.91125pt x 184.69pt>
+(./titlepage.tex <images/logo2.pdf, id=225, 243.91125pt x 184.69pt>
 File: images/logo2.pdf Graphic file (type pdf)
 
 <use images/logo2.pdf>
@@ -1304,10 +1336,15 @@ Package babel Info: Redefining spanish shorthand "?
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/logo2.pdf>]) [2
 
-] (./abstract.tex) [3] [4
+] (./abstract.tex
+Overfull \hbox (36.92203pt too wide) in paragraph at lines 5--7
+\OT1/cmr/m/n/12 Santa Maria in Val-paraiso (Chile) have been built to be part o
+n such en-ter-prise. Char-ac-ter-i-za-tions
+ []
 
-] [5]
-[6
+) [3] [4
+
+] [5] [6
 
 ] [7] [8
 
@@ -1328,224 +1365,337 @@ Chapter 1.
 
 ]
 Chapter 2.
-
-Overfull \hbox (18.75742pt too wide) in paragraph at lines 38--38
-|[]\OT1/cmr/bx/n/24.88 Small-Strip Thin Gap Cham-ber per-
- []
-
 (./chapters/chapter02.tex
-Overfull \hbox (20.45082pt too wide) in alignment at lines 22--35
+Overfull \hbox (20.45082pt too wide) in alignment at lines 24--37
 [][][][][] 
  []
 
-[15] <images/ATLAS.pdf, id=391, 794.97pt x 614.295pt>
+[15] <images/ATLAS.pdf, id=377, 794.97pt x 614.295pt>
 File: images/ATLAS.pdf Graphic file (type pdf)
  <use images/ATLAS.pdf>
-Package pdftex.def Info: images/ATLAS.pdf used on input line 59.
+Package pdftex.def Info: images/ATLAS.pdf used on input line 61.
 (pdftex.def)             Requested size: 317.87262pt x 245.62927pt.
 
-[16 <./images/ATLAS.pdf, page is rotated 90 degrees>]
-<images/NSW.png, id=408, 1308.89pt x 835.12pt>
+[16 <./images/ATLAS.pdf, page is rotated 90 degrees>] [17]
+<images/NSW.png, id=401, 1308.89pt x 835.12pt>
 File: images/NSW.png Graphic file (type png)
  <use images/NSW.png>
-Package pdftex.def Info: images/NSW.png used on input line 112.
+Package pdftex.def Info: images/NSW.png used on input line 115.
 (pdftex.def)             Requested size: 317.87262pt x 202.81581pt.
- [17]
-[18 <./images/NSW.png>]
-<images/sTGC_layout.png, id=426, 667.49374pt x 613.29124pt>
+ [18 <./images/NSW.png>] <images/sTGC_layout.png, id=412, 667.49374pt x 613.291
+24pt>
 File: images/sTGC_layout.png Graphic file (type png)
 
 <use images/sTGC_layout.png>
-Package pdftex.def Info: images/sTGC_layout.png used on input line 153.
+Package pdftex.def Info: images/sTGC_layout.png used on input line 156.
 (pdftex.def)             Requested size: 227.05287pt x 208.60983pt.
- [19 <./images/sTGC_layout.png>] [20]
-<images/alignment.png, id=442, 1035.87pt x 776.9025pt>
+ [19 <./images/sTGC_layout.png>]
+Overfull \hbox (1.78952pt too wide) in paragraph at lines 179--181
+\OT1/cmr/m/n/12 ded-i-cated sim-u-la-tions stud-ies us-ing gaseous de-tec-tor s
+im-u-la-tion tools have been per-formed.
+ []
+
+<images/vfield.png, id=426, 798.985pt x 574.145pt>
+File: images/vfield.png Graphic file (type png)
+ <use images/vfield.png>
+Package pdftex.def Info: images/vfield.png used on input line 188.
+(pdftex.def)             Requested size: 227.05287pt x 163.15994pt.
+
+<images/25efield.png, id=427, 798.985pt x 574.145pt>
+File: images/25efield.png Graphic file (type png)
+ <use images/25efield.png>
+Package pdftex.def Info: images/25efield.png used on input line 197.
+(pdftex.def)             Requested size: 204.34619pt x 146.83868pt.
+
+<images/efield.png, id=428, 798.985pt x 574.145pt>
+File: images/efield.png Graphic file (type png)
+ <use images/efield.png>
+Package pdftex.def Info: images/efield.png used on input line 203.
+(pdftex.def)             Requested size: 204.34619pt x 146.83868pt.
+
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [20 <./images/vfield.png> <./images/25efield.png> <./images/efield.png>]
+Overfull \hbox (8.05612pt too wide) in paragraph at lines 231--237
+\OT1/cmr/m/n/12 The thick-ness of the board is mea-sured in 19 points around th
+e perime-ter with a mi-crom-e-ter.
+ []
+
+
+Overfull \hbox (0.88087pt too wide) in paragraph at lines 231--237
+\OT1/cmr/m/n/12 The val-ues of the-ses mea-sure-ments must be within 1.4mm$\OMS
+/cmsy/m/n/12 ^^F$\OT1/cmr/m/n/12 25$\OML/cmm/m/it/12 ^^V$\OT1/cmr/m/n/12 m. Ex-
+ceed-ing this num-bers
+ []
+
+[21] <images/alignment.png, id=443, 1035.87pt x 776.9025pt>
 File: images/alignment.png Graphic file (type png)
 
 <use images/alignment.png>
-Package pdftex.def Info: images/alignment.png used on input line 226.
+Package pdftex.def Info: images/alignment.png used on input line 255.
 (pdftex.def)             Requested size: 158.93977pt x 119.19762pt.
 
-<images/zoom_in.png, id=443, 1035.87pt x 776.9025pt>
+<images/zoom_in.png, id=444, 1035.87pt x 776.9025pt>
 File: images/zoom_in.png Graphic file (type png)
  <use images/zoom_in.png>
-Package pdftex.def Info: images/zoom_in.png used on input line 233.
+Package pdftex.def Info: images/zoom_in.png used on input line 262.
 (pdftex.def)             Requested size: 158.93977pt x 119.19762pt.
 
-[21 <./images/alignment.png> <./images/zoom_in.png>] [22] [23]
-<images/minix_ag_1.png, id=458, 501.875pt x 361.35pt>
+Underfull \hbox (badness 3907) in paragraph at lines 263--263
+[]\OT1/cmr/m/n/10.95 (b) |Zoom-in Com-par-ing strip
+ []
+
+[22 <./images/alignment.png> <./images/zoom_in.png>]
+<images/quadreal.png, id=449, 2703.09875pt x 1921.1775pt>
+File: images/quadreal.png Graphic file (type png)
+
+<use images/quadreal.png>
+Package pdftex.def Info: images/quadreal.png used on input line 336.
+(pdftex.def)             Requested size: 249.75954pt x 177.50093pt.
+
+<images/quadlayers.png, id=450, 230.8625pt x 405.515pt>
+File: images/quadlayers.png Graphic file (type png)
+
+<use images/quadlayers.png>
+Package pdftex.def Info: images/quadlayers.png used on input line 341.
+(pdftex.def)             Requested size: 113.39133pt x 199.16928pt.
+ [23]
+Overfull \hbox (6.19365pt too wide) in paragraph at lines 353--359
+\OT1/cmr/m/n/12 coun-ters which fol-low Polya dis-tri-bu-tion, how-ever is less
+ pro-nounced in limited-proportional
+ []
+
+[24 <./images/quadreal.png> <./images/quadlayers.png>]
+<images/minix_ag_1.png, id=464, 501.875pt x 361.35pt>
 File: images/minix_ag_1.png Graphic file (type png)
 
 <use images/minix_ag_1.png>
-Package pdftex.def Info: images/minix_ag_1.png used on input line 349.
-(pdftex.def)             Requested size: 227.05287pt x 163.48268pt.
+Package pdftex.def Info: images/minix_ag_1.png used on input line 391.
+(pdftex.def)             Requested size: 181.63951pt x 130.78062pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--367
+<images/minix_d.png, id=465, 652.4375pt x 430.60875pt>
+File: images/minix_d.png Graphic file (type png)
+
+<use images/minix_d.png>
+Package pdftex.def Info: images/minix_d.png used on input line 399.
+(pdftex.def)             Requested size: 181.63951pt x 119.87971pt.
+
+
+LaTeX Warning: Reference `fig:ispower' on page 25 undefined on input line 406.
+
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 406.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: Reference `fig:2500V' on page 25 undefined on input line 428.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--433
 
  []
 
-[24 <./images/minix_ag_1.png>]
-<images/uniformity_2500.pdf, id=467, 569.12625pt x 368.37625pt>
-File: images/uniformity_2500.pdf Graphic file (type pdf)
 
-<use images/uniformity_2500.pdf>
-Package pdftex.def Info: images/uniformity_2500.pdf used on input line 372.
-(pdftex.def)             Requested size: 363.28598pt x 235.15292pt.
+Underfull \vbox (badness 6725) has occurred while \output is active []
 
-<images/uniformity.png, id=468, 1202.4925pt x 732.7375pt>
-File: images/uniformity.png Graphic file (type png)
+ [25 <./images/minix_ag_1.png> <./images/minix_d.png>]
+<images/uniformity_2900.pdf, id=474, 569.12625pt x 162.6075pt>
+File: images/uniformity_2900.pdf Graphic file (type pdf)
 
-<use images/uniformity.png>
-Package pdftex.def Info: images/uniformity.png used on input line 378.
-(pdftex.def)             Requested size: 363.28598pt x 221.36588pt.
+<use images/uniformity_2900.pdf>
+Package pdftex.def Info: images/uniformity_2900.pdf used on input line 436.
+(pdftex.def)             Requested size: 454.10574pt x 129.7512pt.
 
-<images/xy_scan.png, id=469, 408.52625pt x 428.60126pt>
+<images/relativecurrent.pdf, id=475, 569.12625pt x 162.6075pt>
+File: images/relativecurrent.pdf Graphic file (type pdf)
+
+<use images/relativecurrent.pdf>
+Package pdftex.def Info: images/relativecurrent.pdf used on input line 442.
+(pdftex.def)             Requested size: 454.10574pt x 129.7512pt.
+
+<images/xy_scan.png, id=476, 408.52625pt x 428.60126pt>
 File: images/xy_scan.png Graphic file (type png)
 
 <use images/xy_scan.png>
-Package pdftex.def Info: images/xy_scan.png used on input line 383.
-(pdftex.def)             Requested size: 272.46622pt x 285.86644pt.
- [25 <./images/uniformity_2500.pdf, page is rotated 90 degrees>] [26 <./images/
-uniformity.png> <./images/xy_scan.png>]
+Package pdftex.def Info: images/xy_scan.png used on input line 451.
+(pdftex.def)             Requested size: 204.34619pt x 214.39165pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 388.
+<images/graphgain.pdf, id=477, 569.12625pt x 387.4475pt>
+File: images/graphgain.pdf Graphic file (type pdf)
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 388.
+<use images/graphgain.pdf>
+Package pdftex.def Info: images/graphgain.pdf used on input line 457.
+(pdftex.def)             Requested size: 204.34619pt x 139.11444pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 388.
+LaTeX Warning: Reference `fig:2900V' on page 26 undefined on input line 467.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--402
+[26 <./images/uniformity_2900.pdf, page is rotated 90 degrees> <./images/relati
+vecurrent.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
 
  []
 
-<images/monitor.png, id=526, 719.68875pt x 429.605pt>
+<images/monitor.png, id=570, 719.68875pt x 429.605pt>
 File: images/monitor.png Graphic file (type png)
  <use images/monitor.png>
-Package pdftex.def Info: images/monitor.png used on input line 405.
+Package pdftex.def Info: images/monitor.png used on input line 504.
 (pdftex.def)             Requested size: 272.46622pt x 162.64851pt.
 
-<images/rate_filters.png, id=527, 729.72626pt x 431.6125pt>
+<images/rate_filters.png, id=571, 729.72626pt x 431.6125pt>
 File: images/rate_filters.png Graphic file (type png)
 
 <use images/rate_filters.png>
-Package pdftex.def Info: images/rate_filters.png used on input line 412.
+Package pdftex.def Info: images/rate_filters.png used on input line 511.
 (pdftex.def)             Requested size: 227.05287pt x 134.29242pt.
- [27
 
- <./images/monitor.png> <./images/rate_filters.png>] <images/telescope.png, id=
-538, 805.0075pt x 589.20125pt>
+Overfull \hbox (1.39786pt too wide) in paragraph at lines 514--522
+[]\OT1/cmr/m/n/12 On the fig.[]2.12[] the event rate reg-is-ter with the mon-i-
+tor is shown at dif-fer-ent at-ten-u-a-tion
+ []
+
+[27 <./images/xy_scan.png> <./images/graphgain.pdf, page is rotated 90 degrees>
+] [28 <./images/monitor.png>]
+<images/telescope.png, id=631, 805.0075pt x 589.20125pt>
 File: images/telescope.png Graphic file (type png)
 
 <use images/telescope.png>
-Package pdftex.def Info: images/telescope.png used on input line 437.
+Package pdftex.def Info: images/telescope.png used on input line 536.
 (pdftex.def)             Requested size: 227.05287pt x 166.17995pt.
- [28 <./images/telescope.png>] [29]
-<images/strip-pitch.png, id=552, 858.20625pt x 628.3475pt>
+ [29 <./images/rate_filters.png> <./images/telescope.png>]
+Overfull \hbox (14.06161pt too wide) in paragraph at lines 566--569
+[]\OT1/cmr/m/n/12 The sil-i-con pixel hit po-si-tions were then used for re-con
+-struct-ing straight three di-men-sional
+ []
+
+[30] <images/strip-pitch.png, id=645, 858.20625pt x 628.3475pt>
 File: images/strip-pitch.png Graphic file (type png)
 
 <use images/strip-pitch.png>
-Package pdftex.def Info: images/strip-pitch.png used on input line 489.
+Package pdftex.def Info: images/strip-pitch.png used on input line 588.
 (pdftex.def)             Requested size: 204.34619pt x 149.608pt.
 
-<images/strip-aligned.png, id=553, 884.30376pt x 637.38126pt>
+<images/strip-aligned.png, id=646, 884.30376pt x 637.38126pt>
 File: images/strip-aligned.png Graphic file (type png)
 
 <use images/strip-aligned.png>
-Package pdftex.def Info: images/strip-aligned.png used on input line 495.
+Package pdftex.def Info: images/strip-aligned.png used on input line 594.
 (pdftex.def)             Requested size: 204.34619pt x 147.28513pt.
- [30 <./images/strip-pitch.png> <./images/strip-aligned.png>] <images/y-xplane.
-png, id=567, 1243.64626pt x 911.405pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]\OT1/cmr/m/n/10.95 (b) |The dif-fer-en-tial af-ter si-nu-soidal
+ []
+
+
+Overfull \hbox (30.95543pt too wide) in paragraph at lines 632--633
+[]\OT1/cmr/m/n/12 The cor-rec-tion func-tion is there-fore uni-ver-sal and is s
+hown in Fig.[]2.15a[]. The two-dimensional
+ []
+
+[31 <./images/strip-pitch.png> <./images/strip-aligned.png>]
+<images/y-xplane.png, id=661, 1243.64626pt x 911.405pt>
 File: images/y-xplane.png Graphic file (type png)
 
 <use images/y-xplane.png>
-Package pdftex.def Info: images/y-xplane.png used on input line 556.
+Package pdftex.def Info: images/y-xplane.png used on input line 655.
 (pdftex.def)             Requested size: 190.72357pt x 139.76436pt.
 
-<images/y-xplanerotate.png, id=568, 1235.61626pt x 900.36375pt>
+<images/y-xplanerotate.png, id=662, 1235.61626pt x 900.36375pt>
 File: images/y-xplanerotate.png Graphic file (type png)
 
 <use images/y-xplanerotate.png>
-Package pdftex.def Info: images/y-xplanerotate.png used on input line 562.
+Package pdftex.def Info: images/y-xplanerotate.png used on input line 661.
 (pdftex.def)             Requested size: 190.72357pt x 138.96419pt.
 
-<images/resTelescope.png, id=571, 922.44624pt x 846.16125pt>
+Underfull \hbox (badness 6094) in paragraph at lines 662--662
+[]\OT1/cmr/m/n/10.95 (b) |Af-ter ro-ta-tion and trans-la-tion
+ []
+
+[32 <./images/y-xplane.png> <./images/y-xplanerotate.png>]
+<images/resTelescope.png, id=674, 922.44624pt x 846.16125pt>
 File: images/resTelescope.png Graphic file (type png)
 
 <use images/resTelescope.png>
-Package pdftex.def Info: images/resTelescope.png used on input line 582.
+Package pdftex.def Info: images/resTelescope.png used on input line 681.
 (pdftex.def)             Requested size: 181.63951pt x 166.60825pt.
- [31 <./images/y-xplane.png> <./images/y-xplanerotate.png>] <images/beampos.png
-, id=582, 696.6025pt x 750.805pt>
-File: images/beampos.png Graphic file (type png)
 
-<use images/beampos.png>
-Package pdftex.def Info: images/beampos.png used on input line 591.
+<images/beampos.png, id=675, 696.6025pt x 750.805pt>
+File: images/beampos.png Graphic file (type png)
+ <use images/beampos.png>
+Package pdftex.def Info: images/beampos.png used on input line 690.
 (pdftex.def)             Requested size: 136.23311pt x 146.82454pt.
 
-<images/summaryTelescope.png, id=583, 799.98875pt x 559.08875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 691--691
+[]\OT1/cmr/m/n/10.95 (a) |Beam po-si-tion for
+ []
+
+<images/summaryTelescope.png, id=676, 799.98875pt x 559.08875pt>
 File: images/summaryTelescope.png Graphic file (type png)
 
 <use images/summaryTelescope.png>
-Package pdftex.def Info: images/summaryTelescope.png used on input line 597.
+Package pdftex.def Info: images/summaryTelescope.png used on input line 696.
 (pdftex.def)             Requested size: 272.46622pt x 190.42036pt.
-
-<images/resStandalone.png, id=586, 971.63pt x 911.405pt>
+ [33 <./images/resTelescope.png> <./images/beampos.png> <./images/summaryTelesc
+ope.png>]
+<images/resStandalone.png, id=688, 971.63pt x 911.405pt>
 File: images/resStandalone.png Graphic file (type png)
 
 <use images/resStandalone.png>
-Package pdftex.def Info: images/resStandalone.png used on input line 623.
+Package pdftex.def Info: images/resStandalone.png used on input line 722.
 (pdftex.def)             Requested size: 204.34619pt x 191.67883pt.
 
-<images/summaryStandalone.png, id=587, 975.645pt x 713.66624pt>
+<images/summaryStandalone.png, id=689, 975.645pt x 713.66624pt>
 File: images/summaryStandalone.png Graphic file (type png)
 
 <use images/summaryStandalone.png>
-Package pdftex.def Info: images/summaryStandalone.png used on input line 628.
+Package pdftex.def Info: images/summaryStandalone.png used on input line 727.
 (pdftex.def)             Requested size: 204.34619pt x 149.4714pt.
- [32 <./images/resTelescope.png> <./images/beampos.png> <./images/summaryTelesc
-ope.png>] [33 <./images/resStandalone.png> <./images/summaryStandalone.png>]
-<images/padSetup.png, id=608, 930.47626pt x 682.55pt>
+ [34 <./images/resStandalone.png> <./images/summaryStandalone.png>] <images/pad
+Setup.png, id=700, 930.47626pt x 682.55pt>
 File: images/padSetup.png Graphic file (type png)
 
 <use images/padSetup.png>
-Package pdftex.def Info: images/padSetup.png used on input line 662.
+Package pdftex.def Info: images/padSetup.png used on input line 761.
 (pdftex.def)             Requested size: 272.46622pt x 199.86118pt.
 
-<images/padnormal.png, id=609, 918.43124pt x 644.4075pt>
+<images/padnormal.png, id=701, 918.43124pt x 644.4075pt>
 File: images/padnormal.png Graphic file (type png)
 
 <use images/padnormal.png>
-Package pdftex.def Info: images/padnormal.png used on input line 678.
+Package pdftex.def Info: images/padnormal.png used on input line 777.
 (pdftex.def)             Requested size: 204.34619pt x 143.37283pt.
 
-<images/paddeadtime.png, id=610, 920.43875pt x 639.38875pt>
+<images/paddeadtime.png, id=702, 920.43875pt x 639.38875pt>
 File: images/paddeadtime.png Graphic file (type png)
 
 <use images/paddeadtime.png>
-Package pdftex.def Info: images/paddeadtime.png used on input line 683.
+Package pdftex.def Info: images/paddeadtime.png used on input line 782.
 (pdftex.def)             Requested size: 204.34619pt x 141.94403pt.
- [34 <./images/padSetup.png> <./images/padnormal.png> <./images/paddeadtime.png
->]
-<images/chargepos.png, id=620, 1061.9675pt x 739.76375pt>
+
+<images/chargepos.png, id=704, 1061.9675pt x 739.76375pt>
 File: images/chargepos.png Graphic file (type png)
 
 <use images/chargepos.png>
-Package pdftex.def Info: images/chargepos.png used on input line 699.
+Package pdftex.def Info: images/chargepos.png used on input line 798.
 (pdftex.def)             Requested size: 227.05287pt x 158.16565pt.
-
-<images/chargeSharing.png, id=622, 894.34125pt x 816.04875pt>
+ [35 <./images/padSetup.png>]
+<images/chargeSharing.png, id=713, 894.34125pt x 816.04875pt>
 File: images/chargeSharing.png Graphic file (type png)
 
 <use images/chargeSharing.png>
-Package pdftex.def Info: images/chargeSharing.png used on input line 718.
+Package pdftex.def Info: images/chargeSharing.png used on input line 817.
 (pdftex.def)             Requested size: 227.05287pt x 207.17447pt.
- [35 <./images/chargepos.png>]) [36 <./images/chargeSharing.png>]
+ [36 <./images/padnormal.png> <./images/paddeadtime.png> <./images/chargepos.pn
+g>])
+Overfull \hbox (28.45314pt too wide) in paragraph at lines 832--40
+[]\OT1/cmr/m/n/12 The last two sec-tions cor-re-sponde to the pub-li-ca-tion ``
+Per-for-mance Sim-u-la-tions, con-struc-tion
+ []
+
+[37 <./images/chargeSharing.png>] [38
+
+]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1566,76 +1716,71 @@ Overfull \hbox (2.20293pt too wide) in paragraph at lines 43--43
  []
 
 (./chapters/chapter03.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-[37
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 )
 Overfull \hbox (17.1135pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 38 \OT1/cmr/m/sl/12 CHAPTER 3.  HIGH COUNT RATE $\OML/cmm/m/it/
+\OT1/cmr/m/n/12 40 \OT1/cmr/m/sl/12 CHAPTER 3.  HIGH COUNT RATE $\OML/cmm/m/it/
 12 ^^M$\OT1/cmr/m/sl/12 -RAY SPECTROSCOPY WITH BRILLANCE380 
  []
 
-[38]
+[40]
 Chapter 4.
 
-Overfull \hbox (12.78224pt too wide) in paragraph at lines 48--48
-|[]\OT1/cmr/bx/n/24.88 Synchrotron Ra-di-a-tion De-tec-tor for
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
 
 (./chapters/chapter04.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--23
-
+Overfull \hbox (7.30336pt too wide) in paragraph at lines 2--15
+\OT1/cmr/m/n/12 pa-ram-e-ter space, back-ground level for a ar-tic-u-lar pro-ce
+ss, avail-able beam in-te-sity, etc.[][Beam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[39
+) [41
 
-])
-Overfull \hbox (35.01158pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 40 \OT1/cmr/m/sl/12 CHAPTER 4.  SYNCHROTRON RADIATION DETECTOR 
-FOR TAGGING ELECTRONS
- []
-
-[40]
+] [42]
 Chapter 5.
-(./chapters/conclusion.tex) [41
+(./chapters/conclusion.tex) [43
 
-] [42
+] [44
 
 ]
 Appendix A.
-(./chapters/appendix.tex) [43] [44
+(./chapters/appendix.tex) [45] [46
 
 ] (./main.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
- [45
+ [47
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
@@ -1646,7 +1791,10 @@ LaTeX Info: Redefining \% on input line 24.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D4F10B1DC4A71755A2404B7B9DADB871;4037.
+(rerunfilecheck)             Checksum: 153A3D8D9867751524C1859D9233387B;3767.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1654,33 +1802,36 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 20561 strings out of 493014
- 377999 string characters out of 6133351
- 445001 words of memory out of 5000000
- 23661 multiletter control sequences out of 15000+600000
- 22347 words of font info for 93 fonts, out of 8000000 for 9000
+ 20693 strings out of 493014
+ 380554 string characters out of 6133351
+ 446503 words of memory out of 5000000
+ 23769 multiletter control sequences out of 15000+600000
+ 23361 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,48p,10390b,1107s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (45 pages, 7032240 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (47 pages, 18127404 bytes).
 PDF statistics:
- 763 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
- 139 named destinations out of 1000 (max. 500000)
- 608 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 661 compressed objects within 7 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 611 words of extra memory for PDF output out of 10000 (max. 10000000)
 
