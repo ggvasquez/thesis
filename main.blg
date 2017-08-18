@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: bib/bst/atlasBibStyleWithTitle.bst
 Database file #1: reference.bib
-You've used 14 entries,
+Warning--empty pages in mm
+You've used 24 entries,
             2319 wiz_defined-function locations,
-            645 strings with 5502 characters,
-and the built_in function-call counts, 3374 in all, are:
-= -- 317
-> -- 50
+            698 strings with 6675 characters,
+and the built_in function-call counts, 5525 in all, are:
+= -- 511
+> -- 87
 < -- 0
-+ -- 26
-- -- 12
-* -- 206
-:= -- 378
-add.period$ -- 16
-call.type$ -- 14
-change.case$ -- 20
++ -- 45
+- -- 21
+* -- 338
+:= -- 611
+add.period$ -- 26
+call.type$ -- 24
+change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 198
-empty$ -- 422
-format.name$ -- 12
-if$ -- 905
+cite$ -- 25
+duplicate$ -- 330
+empty$ -- 691
+format.name$ -- 21
+if$ -- 1483
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 44
-newline$ -- 47
-num.names$ -- 12
-pop$ -- 92
+int.to.str$ -- 24
+missing$ -- 74
+newline$ -- 77
+num.names$ -- 21
+pop$ -- 152
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 143
+skip$ -- 250
 stack$ -- 0
-substring$ -- 211
-swap$ -- 74
+substring$ -- 303
+swap$ -- 128
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 28
-width$ -- 16
-write$ -- 102
+warning$ -- 1
+while$ -- 45
+width$ -- 26
+write$ -- 172
+(There was 1 warning)

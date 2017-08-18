@@ -14,6 +14,10 @@
 {G.Mikenberg et al.}, {\em Thin-gas gap chambers for hadronic calorimetry},
   Nucl. Instr. and Meth. A {\bfseries 265} (1988) 223--227.
 
+\bibitem{opal}
+{The LEP Collaboration}, {\em Precision Electroweak Measurements on the Z
+  Resonance}, Phys. Rep. {\bfseries 427} (2006) 257--454.
+
 \bibitem{stripwidth}
 {V.Smakhtin et al.}, {\em Thin Gap Chamber upgrade for SLHC: Position
   resolution in a test beam}, Nucl. Instr. and Meth. A {\bfseries 598} (2009)
@@ -32,7 +36,7 @@ Garfield++, {\em Project web page},
   \url{http://garfieldpp.web.cern.ch/garfieldpp/}.
 
 \bibitem{garfield1}
-R.~Veenhof, {\em GARFIELD, recent developments}, Nucl. Instr. and Meth A
+R.~Veenhof, {\em GARFIELD, recent developments}, Nucl. Instr. and Meth. A
   {\bfseries 419} (1988) 726--730.
 
 \bibitem{sauli}
@@ -52,12 +56,52 @@ GIF++, {\em The new Gamma Irradiation Facility},
   \url{https://espace.cern.ch/sba-workspace/gifpp/}.
 
 \bibitem{asdchip}
-M.~Y. O.Sasaki, {\em ASD IC for the thin gap chambers in the LHC Atlas
+{O.Sasaki et al.}, {\em ASD IC for the thin gap chambers in the LHC ATLAS
   Experiment}, IEEE Transactions on Nuclear Science {\bfseries 46} (1999)
   1861--1864.
 
+\bibitem{performance}
+{A. Abusleme et al.}, {\em Performance of a full-size small-strip thin gap
+  chamber prototype for the ATLAS new small wheel muon upgrade}, Nucl. Instr.
+  and Meth. A {\bfseries 817} (2016) 85--92.
+
+\bibitem{na64}
+{NA64 Experiment}, {\em Search for dark sectors in missing energy events},
+  \url{https://na64.web.cern.ch}.
+
+\bibitem{prlpaper}
+{D. Banerjee et al. [NA64 Collaboration]}, {\em Search for Invisible Decays of
+  Sub-GeV Dark Photons in Missing-Energy Events at CERN SPS}, Physical Review
+  Letters {\bfseries 118} (2017) 011802.
+
+\bibitem{proposal}
+{A. Andreas et al.}, {\em Proposal for an Experiment to Search for Light Dark
+  Matter at the SPS}, CERN-SPSC-2013-034 {\bfseries SPSC-P-348} (2013) 011802,
+  arXiv:1312.3309.
+
+\bibitem{sps}
+{\em SPS beam lines}, \url{http://cern.ch/sba}.
+
+\bibitem{mm}
+{D. Banerjee, P. Crivelli and A. Rubbia}, {\em Beam Purity for Light Dark
+  Matter Search in Beam Dump Experiments}, Adv. High Energy Phys. {\bfseries
+  105730} (2015) .
+
 \bibitem{bgosync}
 R.~Cryttenden, {\em Synchrotron radiation detector for tagging electrons},
-  Nucl. Instr. and Meth A {\bfseries 276} (1989) 643--646.
+  Nucl. Instr. and Meth. A {\bfseries 276} (1989) 643--646.
+
+\bibitem{bgodatashet}
+S.~Gobain, {\em BGO Bismuth Germanate},
+  \url{http://www.crystals.saint-gobain.com/products/bgo}.
+
+\bibitem{lysogobain}
+S.~Gobain, {\em Prelude 420 LYSO},
+  \url{http://www.crystals.saint-gobain.com/products/prelude-420-LYSO}.
+
+\bibitem{mppc}
+{O. Soto et al.}, {\em Characterization of novel Hamamatsu Multi Pixel Photon
+  Counter (MPPC) arrays for the GlueX experiment}, Nucl. Instr. and Meth. A
+  {\bfseries 739} (2014) 89--97.
 
 \end{thebibliography}\endgroup

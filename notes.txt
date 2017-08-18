@@ -1,0 +1,3 @@
+Appendix X agregar
+Figuras, centrar caption
+fijar posicion figuras
