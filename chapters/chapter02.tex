@@ -78,15 +78,15 @@ when it loses its energy as it passes through the detector. It is usually design
 the particles coming from a collision, forcing them to deposit all of their energy within the detector. Calorimeters
 typically consist of layers of ``passive" or ``absorbing" high-dense material -for example, lead-interleaved with layers
 of an ``active" medium such as scintillator or liquid argon.\par
+Electromagnetic calorimeters measure the energy of electrons and photons as they interact with matter. Hadronic
+calorimeters sample the energy of hadrons (particles that contain quarks, such as protons and neutrons) as they interact
+with atomic nuclei. The components of the ATLAS calorimetry system are: the {\bf Liquid Argon (LAr) Calorimeter} and the
+{\bf Tile Hadronic Calorimeter}.\par
 \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\textwidth]{ATLAS.pdf}
 		\caption{ATLAS detector, Muon Spectrometer (in blue)}\label{fig:ATLAS}
 \end{figure}
-Electromagnetic calorimeters measure the energy of electrons and photons as they interact with matter. Hadronic
-calorimeters sample the energy of hadrons (particles that contain quarks, such as protons and neutrons) as they interact
-with atomic nuclei. The components of the ATLAS calorimetry system are: the {\bf Liquid Argon (LAr) Calorimeter} and the
-{\bf Tile Hadronic Calorimeter}.\par
 
 Calorimeters can stop most known particles except muons and neutrinos. Muons are charged particles that pass through the
 Inner Detector and Calorimeter interacting only by ionization, they can penetrate through large amount of material without any strong
@@ -234,6 +234,7 @@ wires.\par
 		\end{subfigure}
 		\hspace*{\fill}
 		\centering
+		\captionsetup{margin=1cm}
 		\caption{The electric field map in the x-y plane for a typical operating high voltage 2900V and 2500V.}\label{fig:efields}
 \end{figure}
 
@@ -275,9 +276,7 @@ done on-site.\par
 The thickness of the board is measured in 19 points around the perimeter with a micrometer. The values of theses
 measurements must be within 1.5mm$\pm$25\micro m. Exceeding this numbers leads to the partial rejection of the cathode
 boards, however if there is a single point deviation of less than 35\micro m from the average, it could be used in
-combination with another cathode board that does not have the same local deviation. The raw data is found in appendix
-\ref{medidas}.\par
-
+combination with another cathode board that does not have the same local deviation.\par 
 An electrical test is done with a multimeter, to check if there is any short circuit between strips or pads depending on
 the cathode board.\par
 
@@ -289,7 +288,8 @@ caliper.  Above the cathode board the misalignment is measured. It has the same 
 strips as well as two intermediate regions, and to avoid any parallax, the thickness of the edge for these strips is 1mm.
 Looking with a magnifying glass around 4 regions allows to detect some misalignment between theses strips (caliper
 and cathode board). A photography is taken and analyzed to calculate this misalignment. For such distance (about 1 m
-long) some precautions must be taken, considering the expansion coefficient for both material.\par 
+long) some precautions must be taken, considering the expansion coefficient for both material.\par
+\vspace{1cm}
 %------- Photography strip cathode board measurement ------------ % 
 \begin{figure}[ht]
 	\centering
@@ -403,7 +403,7 @@ the quadruplet is built.
 
 After the chambers are built, it is important to look for any malfunctioning. A primitive test to check the behavior of
 the detector is to move a radiation source across the sensitive area, while the current draw is measured from the
-power supply.\textcolor{red}{ This test will give us the first answer of the gain of the detector}.\par
+power supply.\par
 
 In this test, it is important to understand what can produce variation on the gain. There are two main factor that can
 produce gain variations on wire detectors. The first one is the ``nature" gain fluctuations from the charge production
@@ -506,6 +506,7 @@ the external layers (chambers) are irradiated directly without having an chamber
 		\hspace*{\fill}
 	\includegraphics[width=0.9\textwidth]{uniformity_2900.pdf}
 		\hspace*{\fill}
+		\captionsetup{margin=1cm}
 	\caption{Relative current to the maximum, while the robo-arm is moved along the wires. The three set current
 	corresponds to the whole detector irradiated in three different positions from x-axis.}\label{}
 \end{figure}
@@ -518,6 +519,7 @@ the external layers (chambers) are irradiated directly without having an chamber
 		\hspace*{\fill}
 	\includegraphics[width=0.9\textwidth]{relativecurrent.pdf}
 		\hspace*{\fill}
+		\captionsetup{margin=1cm}
 	\caption{Moving across strips, wire-supports are present with minimum gain.}\label{fig:structure}
 \end{figure}
 
@@ -597,7 +599,21 @@ to check whether the device or its electronic components can handle this high ra
 	\caption{Cesium-137 Decay scheme.}\label{cesium}
 \end{figure}
 
-\begin{figure}[t]
+
+For this purpose, the Module\#0 was
+placed inside a new High Radiation Facility at CERN called GIF++\cite{gif}.
+The installation has a Cesium-137 (Figure \ref{cesium}) as a gamma source with an activity of approximately
+\unit{14.9}{TBq} (\unit{13.3}{TBq} during the test, August 2016). 
+A system of movable lead attenuators (Figure \ref{filters}) for large irradiation zone allows attenuation factors
+between 1 and $5\times10^5$
+in several steps.\par 
+
+In order to get a reference of the particle rate, a direct measurement setup was implemented with a  small size
+(\SI{16,2x12,4}{cm} as sensitive area) sTGC as a {\bf Monitor}. A LVDS (Low voltage differential signaling) logical
+signal from wires was obtained from an Amplifier Shaper Discriminator (ASD) board\cite{asdchip} connected to this
+Monitor.\par
+
+\begin{figure}[H]
 		\hspace*{\fill}
 		\begin{subfigure}[b]{0.25\textwidth}
 			\centering
@@ -611,35 +627,34 @@ to check whether the device or its electronic components can handle this high ra
 			\caption{GIF++ setup.}\label{gifsetup}
 		\end{subfigure}
 		\hspace*{\fill}
+		\captionsetup{margin=1cm}
 		\caption{Three different rows with
 		three lead (Pb) layers, each one with different thickness to provide multiples rates for the facility.}\label{}
 \end{figure}
 
-For this purpose, the Module\#0 was
-placed inside a new High Radiation Facility at CERN called GIF++\cite{gif}.
-The installation has a Cesium-137 (Figure \ref{cesium}) as a gamma source with an activity of approximately
-\unit{14.9}{TBq} (\unit{13.3}{TBq} during the test, August 2016). 
-A system of movable lead attenuators (Figure \ref{filters}) for large irradiation zone allows attenuation factors
-between 1 and $5\times10^5$
-in several steps.\par 
-
-In order to get a reference of the particle rate, a direct measurement setup was implemented with a  small size
-(\SI{16,2x12,4}{cm} as sensitive area) sTGC as a {\bf Monitor}. A LVDS (Low voltage differential signaling) logical
-signal from wires was obtained from an Amplifier Shaper Discriminator (ASD) board\cite{asdchip} connected to this
-Monitor. The ASD board provided the signal from 16 wires groups, all of them connected to a VME module (KEK ASD
+The ASD board provided the signal from 16 wires groups, all of them connected to a VME module (KEK ASD
 buffer), which controls the threshold from the discriminator on the ASD and converts the LVDS to NIM signal. The 16
 LVDS signals are converted into two NIM logical signals. The two outputs from the module are connected to a Scaler NIM
 n145 which provides the number of positive NIM signals from the 16 channels in 10 seconds.\par
 
 The Module\#0 and the Monitor were placed at 1.3m distance from the radioactive source. Both were connected in series
-to the same gas line ($\mathrm{55 CO_2 : 45 n-C_5H_{12}}$), and the temperature and pressure were recored to keep track of the working voltage. Most of the
+to the same gas line ($\mathrm{55 CO_2 : 45}$ n-pentane), and the temperature and pressure were recored to keep track of the working voltage. Most of the
 time, the environmental conditions were measured at 25 Celsius degree and \unit{971}{mb}.\par 
 
 The working potential for the chamber is 2850V at \unit{1}{b}. Since the gain is proportional to $E/P$, where $E$ is
 the electrical field and $P$ the pressure inside the chamber, the voltages must be decreased by 2.9\% to compensate
 the lower pressure, resulting in a 2765V as the new working point in this environment.\par 
 
-\begin{figure}[t]
+
+To achieve the background rate for ATLAS (\unit{15}{kHz/cm$^2$}), the Monitor must register more than \SI{2680}{kHz} if
+the sensitive area is considered. The sensitive area is calculated as the total area \SI{200}{cm^2} times the amount of
+wires group connected to the ASD.\par
+
+Four different attenuation factors were registered (10, 4.5, 2.2 and 1). On Figure \ref{fig:monrate} it is possible to
+observe two sets of data with rates over than the expected one (red and blue). The other two sets of data emphasize the
+{\it plateau} reached over \SI{2.7}{kV}. At the same time, the highest rate shows an inefficiency on voltages over
+\SI{2.8}{kV} and the {\it plateau} is lost. Therefore, the data set with attenuation 2.2 (in red) is our reference.\par
+\begin{figure}[H]
 	\hspace*{\fill}
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
@@ -655,15 +670,6 @@ the lower pressure, resulting in a 2765V as the new working point in this enviro
 	\hspace*{\fill}
 	\caption{Rate on {\bf Monitor}}\label{}
 \end{figure}
-
-To achieve the background rate for ATLAS (\unit{15}{kHz/cm$^2$}), the Monitor must register more than \SI{2680}{kHz} if
-the sensitive area is considered. The sensitive area is calculated as the total area \SI{200}{cm^2} times the amount of
-wires group connected to the ASD.\par
-
-Four different attenuation factors were registered (10, 4.5, 2.2 and 1). On Figure \ref{fig:monrate} it is possible to
-observe two sets of data with rates over than the expected one (red and blue). The other two sets of data emphasize the
-{\it plateau} reached over \SI{2.7}{kV}. At the same time, the highest rate shows an inefficiency on voltages over
-\SI{2.8}{kV} and the {\it plateau} is lost. Therefore, the data set with attenuation 2.2 (in red) is our reference.\par
 
 Multiplying the attenuation factors with each data set (Figure \ref{fig:filters}) should give us the expected rate with
 no filters. However, the data set with factor 1 has \SI{5}{MHz} at working potential (2.9kV), while the expected rate
@@ -707,6 +713,7 @@ be tested against attenuation factor lower than 4.4.\par
 			\caption{Attenuation factor: 10}\label{fig:att10}
 		\end{subfigure}
 		\hspace*{\fill}
+		\captionsetup{margin=1cm}
 		\caption{Current registered on the power supply for each chamber, large (S1) and small sector (S0) against applied
 		voltage on anode. }\label{gifresult}
 \end{figure}
@@ -715,7 +722,7 @@ Once the Monitor is set, the quadruplet is connected to the high voltage power s
 in two sections, a small sector (S0) and large sector (S1). Each one of theses sector is powered independently on each
 channel from the CAEN High Voltage power supply A1833P (\SI{4}{kV}/\SI{2}{mA} max). The current from each layer (two sectors
 each one)	was recorded with a resolution of \SI{0.1}{\micro A}. Four different attenuation filters were applied, and the
-results are shown in Figure \ref{gifresult}. \par
+results are shown in Figure \ref{gifresult}. 
 
 \begin{equation}\label{eqn:delta}
 	\Delta\%=\left|1-\frac{I_1/I_0}{A_1/A_0}\right|*100
@@ -737,11 +744,13 @@ results are shown in Figure \ref{gifresult}. \par
 	1		&2.22 &12.25 	&3.02 &8.63 	&2.45 &20.19 	&2.49	&26.76\\
 	\hline
 	\end{tabular*}
+	\centering
+	\captionsetup{margin=1cm}
 	\caption{Comparison between sensitive area ratio ($A_1$/$A_0$) from large and small sectors with the ratio of current
 	($I_1$/$I_0$) at 2.9kV. A percentage difference column ($\Delta \%$ defined in equation \ref{eqn:delta}) is calculated to
-	highlight the incremental disagreement as the gamma rate increases.}\label{aratio}
+	highlight the incremental disagreement as the gamma rate and the area ratio increases.}\label{aratio}
 \end{table}
-\begin{figure}[t]
+\begin{figure}[hb]
 		\hspace*{\fill}
 		\begin{subfigure}[b]{0.45\textwidth}
 			\centering
@@ -768,7 +777,8 @@ results are shown in Figure \ref{gifresult}. \par
 			\caption{Chamber 4, $A_1/A_0=$3.40}\label{fig:a4}
 		\end{subfigure}
 		\hspace*{\fill}
-		\caption{Current ratio $I_1/I_0$ for two diferents rates compared with the area ratio $A_1/A_0$ at different anode
+		\captionsetup{margin=1cm}
+		\caption{Current ratio $I_1/I_0$ for two different rates compared with the area ratio $A_1/A_0$ at different anode
 		voltage. The Chamber 3 in (c) has a missing wire in the large section ($A_1$), therefore the area ratio
 		must be slightly lower and an increase of the current can be expected for the same reason.}\label{plotratios}
 \end{figure}
@@ -780,8 +790,14 @@ wires are shorter (collecting less charge).\par
 
 The Table \ref{aratio} compares the area ratio between the internal sections of each chamber with the current registered
 for each set of measurements. The effect of dropping voltage appears to be the explanation of the incremental
-disagreement of the area ratio as the rate increases. The larger percentile difference is observed on the Layer 4 where the
-larger section is bigger than the previous ones, hence, the current ratio is lower.\par
+disagreement of the area ratio as the rate increases.\par
+The set of graphs shown in Figure \ref{plotratios} highlights the
+disagreement between different working voltages for two different rates. 
+
+These two sets of data are the expected rates for
+the large and small sector on the sTGC QS1. Hence, it is important to compare these ratios with the amount of current
+registered by both sectors. As the area ratio increases, the current ratio decreases, which suggests the use of different HV
+resistors for the external wires groups to produce an homogeneous voltage drop. \par
 
 
 	%----------------- SPATIAL RESOLUTION ---------------
@@ -994,7 +1010,7 @@ since they are expected to have a small impact on the determination of the intri
 	\caption{Beam position for different data sets on sTGC}\label{beampos}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}[b]{0.6\textwidth}
+	\begin{subfigure}[b]{0.45\textwidth}
 	\centering
 	\includegraphics[width=\textwidth]{summaryTelescope.png}
 	\caption{Summary of intrinsic resolution for each data set and layer of sTGC}\label{summary}
@@ -1020,7 +1036,7 @@ individual channel pedestal.\par
 
 
 \subsubsection{sTGC standalone analysis}
-\begin{figure}[b]
+\begin{figure}[ht]
 \centering
 \hspace*{\fill}
 \begin{subfigure}[b]{0.45\textwidth}
@@ -1034,6 +1050,7 @@ individual channel pedestal.\par
 \caption{}\label{sss}
 \end{subfigure}
 \hspace*{\fill}
+		\captionsetup{margin=1cm}
 \caption{(a) Resolution estimate based on adjacent sTGC strip-layer position residual distributions for a
 representative sTGC standalone data taking run.\\
 (b) Summary of the measured intrinsic sTGC resolution using the
@@ -1049,7 +1066,7 @@ however the residual distribution of the y-position is calculated from two pairw
 of the variance of this distribution corresponds to our parameter to estimate the intrinsic resolution for one layer,
 hence $\sigma = \sigma_{\mathrm{residual}}/\sqrt{2}$. \par
 A strip-layer position residual distribution for a representative sTGC standalone data taking run is shown in Figure
-\ref{pairwise}. In this graph, a intrinsic resolution of $\sigma=40.8\pm0.8\mu m$ is obtained.\par 
+\ref{pairwise}.\\ In this graph, a intrinsic resolution of $\sigma=40.8\pm0.8\mu m$ is obtained.
 
 In summary of fourteen data sets, the intrinsic resolution with this analysis is about \unit{45}{\micro m}. The white
 open circles on the graph \ref{sss} correspond to non-validate data due to wire-support position or mis-calibrations.
@@ -1116,21 +1133,6 @@ of the signal threshold) was checked. This test confirmed that the detector was 
 
 \subsubsection{Charge sharing between pads}
 
-\begin{figure}[t]
-\centering
-\hspace*{\fill}
-\begin{subfigure}[b]{0.45\textwidth}
-\includegraphics[width=\textwidth]{chargepos.png}
-\caption{Pad region transition scheme}\label{chargepos}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.45\textwidth}
-\includegraphics[width=\textwidth]{chargeSharing.png}
-\caption{Charge Sharing distribution}\label{chargeSharing}
-\hspace*{\fill}
-\end{subfigure}
-\caption{}\label{}
-\end{figure}
 
 To study the transition region between pads, the scintillator coincidence triggering area and the particle beam were
 centered between pad $n$ and pad $n+1$ of the first layer, as illustrated in Figure \ref{chargepos}.\par
@@ -1148,6 +1150,22 @@ fraction ($F$) is defined using the analog peak values ($P$) of the two adjacent
 F = \frac{P_n - P_{n+1}}{P_n + P_{n+1}}
 \end{equation}
 
+\begin{figure}[H]
+\centering
+\hspace*{\fill}
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chargepos.png}
+\caption{Pad region transition scheme}\label{chargepos}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chargeSharing.png}
+\caption{Charge Sharing distribution}\label{chargeSharing}
+\hspace*{\fill}
+\end{subfigure}
+\caption{}\label{}
+\end{figure}
+
 
 Figure \ref{chargeSharing} shows the charge fraction as a function of the position with respect to the center of the
 transition region, where the two pads share more than 70\% of the induced charge, spans about \unit{4}{mm}.\par
@@ -1161,7 +1179,7 @@ boards (1m to 2m long) is discussed.\par
 To improve the time response the resistivity of the graphite layer is decreased and the distance between the readout and
 graphite layer is reduced to a 100\micro m.\par
 
-The sTGC detector is tested with four different objectives. The first test against x-rays occurs right after the Quadruplet is
+The sTGC detector is tested with four different objectives. The first test under x-rays occurs right after the Quadruplet is
 constructed. The use of this source helps to understand the construction issues as well as qualifying process, where
 the uniformity of the gain is measured.\par
 
@@ -1186,3 +1204,6 @@ On the sTGC technology, all the efforts go to the improvement of the position re
 
 The spatial resolutions and pad efficiency results have been published in ``Performance of a full-size small-strip thin gap chamber prototype
 for the ATLAS new small wheel muon upgrade''\cite{performance}.
+
+The estimation of the position and efficiency resolution as a function of background rates inside the high rate
+environmental with a muon beam is remaining and it will be done after a new version of the VMM1 electronics is produced.  

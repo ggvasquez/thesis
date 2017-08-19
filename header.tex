@@ -6,7 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[switch]{lineno}
 \usepackage{float}
-
+\usepackage[labelfont=bf]{caption}
 \usepackage{helvet}
 \usepackage{graphicx}
 \usepackage{color}
@@ -47,6 +47,10 @@
 % --------------- use texdoc fancyhdr to get option formats ------ %
 
 
+\setlength{\intextsep}{{5pt plus 1.0pt minus 2.0pt}}
+\setlength{\floatsep}{{10pt plus 1.0pt minus 2.0pt}}
+\setlength{\textfloatsep}{{10pt plus 2.0pt minus 2.0pt}}
+\setlength{\belowcaptionskip}{1.0pt}
 \fancypagestyle{plain}{%
 \fancyfoot{} % clear all header and footer fields
 \fancyhead[l]{\bfseries \nouppercase \rightmark} % except the center
