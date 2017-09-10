@@ -1,37 +1,76 @@
 \select@language {spanish}
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
-\contentsline {chapter}{\numberline {2}Small-strip Thin Gap Chamber}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}High Luminosity Large Hadron Collider}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}ATLAS Detector}{16}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Coordinate system}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Detector Upgrade}{18}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}sTGC Description}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Electric field simulation}{20}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Construction process}{21}{section.2.4}
-\contentsline {subsubsection}{Quality Control of cathode boards}{21}{section.2.4}
-\contentsline {subsubsection}{Cathode preparation}{22}{figure.caption.12}
-\contentsline {subsubsection}{Graphite spraying}{23}{figure.caption.12}
-\contentsline {subsubsection}{Polishing}{23}{figure.caption.12}
-\contentsline {subsubsection}{Gluing internal parts}{23}{figure.caption.12}
-\contentsline {subsubsection}{Winding wires}{23}{figure.caption.12}
-\contentsline {subsubsection}{Detector Assembly}{23}{figure.caption.12}
-\contentsline {section}{\numberline {2.5}Gain uniformity measurements}{24}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Setup}{25}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Results}{27}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Stability under high rate}{28}{section.2.6}
-\contentsline {section}{\numberline {2.7}Spatial Resolution}{33}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Analysis Model}{34}{subsection.2.7.1}
-\contentsline {subsubsection}{Pixel telescope analysis}{34}{subsection.2.7.1}
-\contentsline {subsubsection}{sTGC standalone analysis}{37}{figure.caption.31}
-\contentsline {section}{\numberline {2.8}Pad efficiency}{38}{section.2.8}
-\contentsline {subsubsection}{Charge sharing between pads}{39}{figure.caption.34}
-\contentsline {section}{\numberline {2.9}Summary}{41}{section.2.9}
-\contentsline {chapter}{\numberline {3}High count rate $\gamma $-ray spectroscopy in GIF++}{43}{chapter.3}
-\contentsline {chapter}{\numberline {4}Synchrotron radiation detector for $e^-$ tagging}{45}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.5}
-\contentsline {chapter}{\numberline {A}Appendix}{49}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Mechanical Measurements sTGC Module 0}{49}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}PMT RT7525 Data Sheet}{49}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}NA64 Experiment:Data structure}{49}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}NA64 Experiemnt:DAQ system}{49}{section.Alph1.4}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Interaccion of Radiation with Matter}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Gas fillled detectors}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Production of Electron-Ion pairs}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Diffusion and Drift of Charges in Gases}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Regions of Operation of Gas Filled Detectors}{7}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Scintillation detectors}{7}{section.1.3}
+\contentsline {section}{\numberline {1.4}Calorimeters}{7}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Radiation Length}{7}{subsection.1.4.1}
+\contentsline {chapter}{\numberline {2}Small-strip Thin Gap Chamber}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}High Luminosity Large Hadron Collider}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}ATLAS Detector}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Coordinate system}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Detector Upgrade}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}sTGC Description}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Electric field simulation}{14}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Construction process}{15}{section.2.4}
+\contentsline {subsubsection}{Quality Control of cathode boards}{15}{section.2.4}
+\contentsline {subsubsection}{Cathode preparation}{16}{figure.caption.9}
+\contentsline {subsubsection}{Graphite spraying}{17}{figure.caption.9}
+\contentsline {subsubsection}{Polishing}{17}{figure.caption.9}
+\contentsline {subsubsection}{Gluing internal parts}{17}{figure.caption.9}
+\contentsline {subsubsection}{Winding wires}{17}{figure.caption.9}
+\contentsline {subsubsection}{Detector Assembly}{17}{figure.caption.9}
+\contentsline {section}{\numberline {2.5}Gain uniformity measurements}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Setup}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Results}{21}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Stability under high rate}{22}{section.2.6}
+\contentsline {section}{\numberline {2.7}Spatial Resolution}{27}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Analysis Model}{28}{subsection.2.7.1}
+\contentsline {subsubsection}{Pixel telescope analysis}{28}{subsection.2.7.1}
+\contentsline {subsubsection}{sTGC standalone analysis}{31}{figure.caption.28}
+\contentsline {section}{\numberline {2.8}Pad efficiency}{32}{section.2.8}
+\contentsline {subsubsection}{Charge sharing between pads}{33}{figure.caption.31}
+\contentsline {section}{\numberline {2.9}Summary}{35}{section.2.9}
+\contentsline {chapter}{\numberline {3}High count rate $\gamma $-ray spectroscopy in GIF++}{37}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{37}{section.3.1}
+\contentsline {section}{\numberline {3.2}Counter Limit}{37}{section.3.2}
+\contentsline {section}{\numberline {3.3}High Radiation Source}{37}{section.3.3}
+\contentsline {section}{\numberline {3.4}Data Analisys}{37}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Multiple hits}{37}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Wavelets}{37}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Peak identification}{38}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Results}{38}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Spectrum}{38}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Gamma Flux Rates}{38}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}Synchrotron radiation detector for $e^-$ tagging}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}NA64 experiment}{39}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Physics Motivation}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Dark Photon signal}{41}{subsection.4.1.2}
+\contentsline {subsubsection}{Visible decay}{41}{subsection.4.1.2}
+\contentsline {subsubsection}{Invisible decay}{41}{figure.caption.36}
+\contentsline {subsection}{\numberline {4.1.3}Detector}{43}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Particle identification}{44}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Synchrotron Radiation Detector}{45}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}BGO}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}LYSO}{47}{subsection.4.2.2}
+\contentsline {subsubsection}{Readout}{47}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Calibration}{50}{section.4.3}
+\contentsline {subsubsection}{X-axis equalization}{50}{section.4.3}
+\contentsline {subsubsection}{Y-axis equalization}{50}{figure.caption.46}
+\contentsline {subsubsection}{Z-axis configuration}{51}{figure.caption.47}
+\contentsline {section}{\numberline {4.4}Time resolution}{51}{section.4.4}
+\contentsline {section}{\numberline {4.5}Hadron rejection}{52}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Total energy}{52}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Strips triggered}{52}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Experimental Results}{57}{section.4.6}
+\contentsline {section}{\numberline {4.7}Summary}{57}{section.4.7}
+\contentsline {chapter}{\numberline {5}Conclusion}{59}{chapter.5}
+\contentsline {chapter}{\numberline {A}Appendix}{61}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Mechanical Measurements sTGC Module 0}{61}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}PMT RT7525 Data Sheet}{61}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}NA64 Experiment:Data structure}{61}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}NA64 Experiemnt:DAQ system}{61}{section.Alph1.4}

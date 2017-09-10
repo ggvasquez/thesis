@@ -12,11 +12,11 @@ beam line. For this reason, the experiment use the synchrotron radiation to tag 
 other events.\par
 
 In this chapter we start by briefly describing the NA64 experiment goals and the advantage of it. The experiment has two
-different configuration for two possible dark photon decays, visible and invisible. These two configurations are
-discussed, however, the focus is on the invisible setup, where results are shown.\par
-To detect a dark photon signal a pure electron beam must be achieve
-how the dark photon signal can be detected. Then
-we discuss about the three different options of synchrotron radiation detector (SRD) presents for the experiment and we
+different configuration for two possible dark photon decays, {\it visible} and {\it invisible}. These two configurations are
+discussed, however, the focus is on the {\it invisible decays} setup, where results are shown.\par
+
+To detect a dark photon signal a pure electron beam must be achieve how the dark photon signal can be detected. Then we
+discuss about the three different options of synchrotron radiation detector (SRD) presents for the experiment and we
 focus on of them, the LYSO crystals array. We present the experimental results of the hadron suppression level and we
 compare with the first option for SRD a BGO crystals array. Finally, we present the published results from the NA64
 experiment searching for dark missing energy events of dark photons.\par
@@ -218,6 +218,35 @@ effective tagging of the incoming beam electrons [18].
 		energy signature in the detector.}\label{fig:na64detector}
 \end{figure}
 
+\subsection{Particle identification}
+
+The hadron contamination in the electron beam lead us to idifentify the particle before it reaches the active target
+(ECAL). For particle identification in high energy physics is commonly used detection of Cherenkov radiation. This type
+of electromangetic radiation is emitted when a charged particle passes trhough a dielectric medium at a speed ($v$) greater
+than the phase velocity of light ($c/n$) in that medium. Hence the condition to emmitt Cherenkov radiation is when
+\begin{equation}\label{condCR}
+\frac{v}{c} = \beta > \frac{1}{n} 
+\end{equation}
+where $n$ is the refraction index of the medium. 
+
+The equation \ref{CRemission} represent the energy radiated as Cherenkov radiation per frequency and per unit distance along the path of
+the particle. \par
+In this experiment the dielectric medium is the air with an refraction index of $n_{air}=1.0002772$. Therefore for an
+specific frequency $\omega_0$ is possible to estimate the amount of photons emmited by an electron or a pion. 
+
+\begin{equation}\label{CRemission}
+\left(\frac{d^2E}{dxd\omega}\right)_{rad} = \frac{\omega q^2}{c^2}
+\left(1-\frac{1}{\beta^2\epsilon(\omega)}\right) 
+\end{equation}
+where $q$ is the charge, $\beta$ the velocity of the particle and $\epsilon(\omega)$ is the electrical permitivity of the medium 
+
+
+\begin{
+
+
+%------------------- SYNCHROTRON RADIATION ------------------
+
+
 \section{Synchrotron Radiation Detector}
 
 
@@ -295,16 +324,21 @@ energy range where synchrotron radiation is emitted.
 \subsection{BGO}\label{bgoanal}
 
 The idea to use scintillator crystals as synchrotron radiation detector for tagging electrons has been tested
-before\cite{bgosync}. As a first option the experiment use the $\mathrm{Bi_4Ge_3O_{12}}$ (BGO) crystals because of its
-properties. The detector consists of 8 hexagonal crystals with an external diameter of \SI{55}{mm} and a length of
+before\cite{bgosync}. However, this time the idea is to reject hadrons to the level of $10^{-5}$ compare to the
+electrons on target. The NA64 experiment, use as a first option of SRD an array of $\mathrm{Bi_4Ge_3O_{12}}$ (BGO)
+crystals because of its high photoelectric gamma rays absortion and a configuration that can the dectect the incoming SR and reject
+the back scattering event coming from the ECAL.\par
+The detector consists of 8 hexagonal crystals with an external diameter of \SI{55}{mm} and a length of
 \SI{200}{mm}. The crystals are grouped into two modules. Each crystal is wrapped in Teflon tape for efficient light
 collection and it is glued to an ETL 9954 photomultipliers(PMT).\par
 
 The BGO has a density of 7.13 \si{\gram/\centi\cubic\metre} and because of the high atomic number of the bismuth
 component ($Z=83$) it has one of the larges probability per unit volume for photoelectric absorption of gamma rays.
-\cite{bgodatashet}. The light yield of about 8500 photons/MeV coupled to the transportation losses and
+\cite{bgodatashet}. The light yield of about 8500 $\gamma$s/MeV coupled to the transportation losses and
 quantum efficiency of the PMT gives an energy resolution of about 17\% (FWHM) at \SI{1.27}{MeV} (measured with a
-$\mathrm{^{22}Na}$ radioactive source.\par
+$\mathrm{^{22}Na}$ radioactive source).\par
+
+
 
 
 \begin{figure}[ht]
@@ -343,15 +377,15 @@ $\mathrm{^{22}Na}$ radioactive source.\par
 \end{figure}
 
 
-%----------------------------- Sandwich ----------------------------- 
 %----------------------------- LYSO  ----------------------------- 
 \subsection{LYSO}
 
-One of the options to be used as a synchrotron radiation detector (SRD) is LYSO crystals\cite{lysogobain}.
-An array of 25x25 crystals of 4x4x45\si{\cubic\milli\metre} has been build at the Technical University Federico Santa
-Maria. Each crystal is a Cerium doped lutetium ($\mathrm{Lu_{1.8}Y_{0.2}SiO_5:Ce}$), with a light output of 35.000
-[photons/MeV]. This type of crystals has a short time decay (see Table \ref{property}) compared to BGO crystals.
-Therefore, it is a more suitable candidate for a SR detection at high rates. With a decay time of
+The setup for invisible decays has a second option of scintillating material to detect synchrotron radiation. An array
+of LYSO\cite{lysogobain} crystals with a shorter time decay and fourth time light output compare to BGO.
+An array of 25x25 crystals of 4x4x45\si{\cubic\milli\metre} has been build at the Technical
+University Federico Santa Maria. Each crystal is a Cerium doped lutetium ($\mathrm{Lu_{1.8}Y_{0.2}SiO_5:Ce}$), with a
+light output of 35.000 [photons/MeV]. This type of crystals has a short time decay (see Table \ref{property}) compared
+to BGO crystals.  Therefore, it is a more suitable candidate for a SR detection at high rates. With a decay time of
 $\mathrm{\tau_{LYSO}=40}$ns, allows to a maximal electron counting rate of $\lesssim 1/\tau \sim 10^7 e^-/s$.\par
 
 The light is collected from KURARAY wave length shifter (WLS) fibers 
@@ -394,6 +428,7 @@ Radiation Length							& 1.16 & 0.96\\
 
 \section{Calibration}
 \subsubsection{X-axis equalization}
+{\bf Run 1459}
 MIP calibration on X axis\\
 \begin{figure}[ht]
 	\hspace*{\fill}
@@ -408,6 +443,7 @@ Plot pedestal, mean and sigma per channel.
 Plot channel MIP, sigma and percentage sigma/mu per channel.
 
 \subsubsection{Y-axis equalization}
+{\bf Run 1463}
 \begin{figure}[ht]
 	\hspace*{\fill}
 	\centering
@@ -425,6 +461,7 @@ Plot channel mip, sigma and percentage sigma/mu per channel.
 \subsubsection{Z-axis configuration}
 Finally the beam hits the detector as its standard configuration. The weighted signals can be correlated between each
 other
+{\bf Run 1467 \& Run 1468}
 
 MIP on Z axis\\
 \begin{figure}[ht]
@@ -436,9 +473,22 @@ MIP on Z axis\\
 \end{figure}
 
 
-\section{Energy and time resolution}
+\section{Time resolution}
+
+A time decay of about 40ns is one of the main reasons to use LYSO crystals in this experiment. With the same density as
+BGO can provide faster response, therefore, a better timing.\par
+
+To calculate the time resolution within the experiment, a time reference is provide by S1, the first detector
+in front of the beam which provide the trigger for the experiment. 
 Time is defined respect to the first counter S1, and calculated with constant fraction method where:....\\
 The temporal resolution on a single channel is shown in ..\\
+\begin{figure}[ht]
+	\hspace*{\fill}
+	\centering
+	\includegraphics[width=0.5\textwidth]{ts0ts1.pdf}
+	\hspace*{\fill}
+	\caption{}\label{}
+\end{figure}
 
 
 \section{Hadron rejection}
