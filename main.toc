@@ -47,30 +47,32 @@
 \contentsline {subsection}{\numberline {3.5.1}Spectrum}{38}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Gamma Flux Rates}{38}{subsection.3.5.2}
 \contentsline {chapter}{\numberline {4}Synchrotron radiation detector for $e^-$ tagging}{39}{chapter.4}
-\contentsline {section}{\numberline {4.1}NA64 experiment}{39}{section.4.1}
+\contentsline {section}{\numberline {4.1}NA64 experiment}{40}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Physics Motivation}{41}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Dark Photon signal}{41}{subsection.4.1.2}
 \contentsline {subsubsection}{Visible decay}{41}{subsection.4.1.2}
-\contentsline {subsubsection}{Invisible decay}{41}{figure.caption.36}
+\contentsline {subsubsection}{Invisible decay}{42}{figure.caption.36}
 \contentsline {subsection}{\numberline {4.1.3}Detector}{43}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Particle identification}{44}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Synchrotron Radiation Detector}{45}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}BGO}{46}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}LYSO}{47}{subsection.4.2.2}
-\contentsline {subsubsection}{Readout}{47}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Calibration}{50}{section.4.3}
-\contentsline {subsubsection}{X-axis equalization}{50}{section.4.3}
-\contentsline {subsubsection}{Y-axis equalization}{50}{figure.caption.46}
-\contentsline {subsubsection}{Z-axis configuration}{51}{figure.caption.47}
-\contentsline {section}{\numberline {4.4}Time resolution}{51}{section.4.4}
-\contentsline {section}{\numberline {4.5}Hadron rejection}{52}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Total energy}{52}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Strips triggered}{52}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Experimental Results}{57}{section.4.6}
-\contentsline {section}{\numberline {4.7}Summary}{57}{section.4.7}
-\contentsline {chapter}{\numberline {5}Conclusion}{59}{chapter.5}
-\contentsline {chapter}{\numberline {A}Appendix}{61}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Mechanical Measurements sTGC Module 0}{61}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}PMT RT7525 Data Sheet}{61}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}NA64 Experiment:Data structure}{61}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}NA64 Experiemnt:DAQ system}{61}{section.Alph1.4}
+\contentsline {section}{\numberline {4.2}The synchrotron radiation tagging system}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Cherenkov Radiation}{45}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Synchrotron Radiation}{46}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}BGO}{48}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}LYSO}{49}{subsection.4.2.4}
+\contentsline {subsubsection}{Readout}{51}{table.caption.45}
+\contentsline {section}{\numberline {4.3}Calibration}{51}{section.4.3}
+\contentsline {section}{\numberline {4.4}Time resolution}{59}{section.4.4}
+\contentsline {subsubsection}{Max sample}{59}{figure.caption.61}
+\contentsline {subsubsection}{Center of Mass}{60}{figure.caption.61}
+\contentsline {subsubsection}{Rising Edge}{60}{equation.4.4.19}
+\contentsline {section}{\numberline {4.5}Hadron rejection}{61}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}BGO hadron suppression}{61}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Total energy}{61}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Strips triggered}{61}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Experimental Results}{68}{section.4.6}
+\contentsline {section}{\numberline {4.7}Summary}{68}{section.4.7}
+\contentsline {chapter}{\numberline {5}Conclusion}{69}{chapter.5}
+\contentsline {chapter}{\numberline {A}Appendix}{71}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Mechanical Measurements sTGC Module 0}{71}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}PMT RT7525 Data Sheet}{71}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}NA64 Experiment:Data structure}{71}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}NA64 Experiemnt:DAQ system}{71}{section.Alph1.4}

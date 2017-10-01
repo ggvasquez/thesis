@@ -39,20 +39,22 @@
 \BOOKMARK [2][-]{subsection.4.1.1}{Physics Motivation}{section.4.1}% 39
 \BOOKMARK [2][-]{subsection.4.1.2}{Dark Photon signal}{section.4.1}% 40
 \BOOKMARK [2][-]{subsection.4.1.3}{Detector}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.4}{Particle identification}{section.4.1}% 42
-\BOOKMARK [1][-]{section.4.2}{Synchrotron Radiation Detector}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.2.1}{BGO}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.2}{LYSO}{section.4.2}% 45
-\BOOKMARK [1][-]{section.4.3}{Calibration}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.4}{Time resolution}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.5}{Hadron rejection}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.5.1}{Total energy}{section.4.5}% 49
-\BOOKMARK [2][-]{subsection.4.5.2}{Strips triggered}{section.4.5}% 50
-\BOOKMARK [1][-]{section.4.6}{Experimental Results}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.7}{Summary}{chapter.4}% 52
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 53
-\BOOKMARK [0][-]{appendix.Alph1}{Appendix}{}% 54
-\BOOKMARK [1][-]{section.Alph1.1}{Mechanical Measurements sTGC Module 0}{appendix.Alph1}% 55
-\BOOKMARK [1][-]{section.Alph1.2}{PMT RT7525 Data Sheet}{appendix.Alph1}% 56
-\BOOKMARK [1][-]{section.Alph1.3}{NA64 Experiment:Data structure}{appendix.Alph1}% 57
-\BOOKMARK [1][-]{section.Alph1.4}{NA64 Experiemnt:DAQ system}{appendix.Alph1}% 58
+\BOOKMARK [1][-]{section.4.2}{The synchrotron radiation tagging system}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.2.1}{Cherenkov Radiation}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.2}{Synchrotron Radiation}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.3}{BGO}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.4}{LYSO}{section.4.2}% 46
+\BOOKMARK [1][-]{section.4.3}{Calibration}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.4}{Time resolution}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.5}{Hadron rejection}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.5.1}{BGO hadron suppression}{section.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.5.2}{Total energy}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.3}{Strips triggered}{section.4.5}% 52
+\BOOKMARK [1][-]{section.4.6}{Experimental Results}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.7}{Summary}{chapter.4}% 54
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 55
+\BOOKMARK [0][-]{appendix.Alph1}{Appendix}{}% 56
+\BOOKMARK [1][-]{section.Alph1.1}{Mechanical Measurements sTGC Module 0}{appendix.Alph1}% 57
+\BOOKMARK [1][-]{section.Alph1.2}{PMT RT7525 Data Sheet}{appendix.Alph1}% 58
+\BOOKMARK [1][-]{section.Alph1.3}{NA64 Experiment:Data structure}{appendix.Alph1}% 59
+\BOOKMARK [1][-]{section.Alph1.4}{NA64 Experiemnt:DAQ system}{appendix.Alph1}% 60

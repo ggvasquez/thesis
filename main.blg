@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: bib/bst/atlasBibStyleWithTitle.bst
 Database file #1: reference.bib
 Warning--empty pages in mm
-You've used 24 entries,
+You've used 27 entries,
             2319 wiz_defined-function locations,
-            698 strings with 6675 characters,
-and the built_in function-call counts, 5525 in all, are:
-= -- 511
-> -- 87
+            716 strings with 7011 characters,
+and the built_in function-call counts, 6157 in all, are:
+= -- 569
+> -- 99
 < -- 0
-+ -- 45
-- -- 21
-* -- 338
-:= -- 611
-add.period$ -- 26
-call.type$ -- 24
-change.case$ -- 38
++ -- 51
+- -- 24
+* -- 372
+:= -- 684
+add.period$ -- 30
+call.type$ -- 27
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 330
-empty$ -- 691
-format.name$ -- 21
-if$ -- 1483
+cite$ -- 28
+duplicate$ -- 377
+empty$ -- 770
+format.name$ -- 24
+if$ -- 1656
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 74
-newline$ -- 77
-num.names$ -- 21
-pop$ -- 152
+int.to.str$ -- 27
+missing$ -- 86
+newline$ -- 87
+num.names$ -- 24
+pop$ -- 175
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 250
+skip$ -- 273
 stack$ -- 0
-substring$ -- 303
-swap$ -- 128
+substring$ -- 315
+swap$ -- 143
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 45
-width$ -- 26
-write$ -- 172
+while$ -- 50
+width$ -- 29
+write$ -- 195
 (There was 1 warning)

@@ -87,9 +87,22 @@ GIF++, {\em The new Gamma Irradiation Facility},
   Matter Search in Beam Dump Experiments}, Adv. High Energy Phys. {\bfseries
   105730} (2015) .
 
-\bibitem{bgosync}
+\bibitem{srd1}
+{W. Busza, M. Chen and D. Luckey}, {\em Application of synchrotron radiation
+  for the identification of electrons in high energy beams}, Nucl. Instr. and
+  Meth. {\bfseries 105} (1972) 613.
+
+\bibitem{srd2}
+{J. S. Dworkin et al}, {\em Electron identification using a synchrotron
+  radiation detector}, Nucl. Instr. and Meth. A. {\bfseries 247} (1986) 412.
+
+\bibitem{srd3}
 R.~Cryttenden, {\em Synchrotron radiation detector for tagging electrons},
   Nucl. Instr. and Meth. A {\bfseries 276} (1989) 643--646.
+
+\bibitem{synchrotron}
+H.~Wiedemann, {\em Particle Accelerator Physics}.
+\newblock Springer, 2007.
 
 \bibitem{bgodatashet}
 S.~Gobain, {\em BGO Bismuth Germanate},
